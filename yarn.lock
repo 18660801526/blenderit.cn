@@ -1077,6 +1077,11 @@ open@^8.0.9:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
+pangu@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npmmirror.com/pangu/-/pangu-4.0.7.tgz"
+  integrity sha512-weZKJIwwy5gjt4STGVUH9bix3BGk7wZ2ahtIypwe3e/mllsrIZIvtfLx1dPX56GcpZFOCFKmeqI1qVuB9enRzA==
+
 parse5@^7.1.1:
   version "7.1.2"
   resolved "https://registry.npmmirror.com/parse5/-/parse5-7.1.2.tgz"

@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Blender插件管理大师
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: 'BLender找插件和用插件的终极解决方案'
+keywords: 'Blender,Blender插件,Blender插件怎么用,Blender插件去哪里下载'
+author: Blenderit
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blenderit.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: keep
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
