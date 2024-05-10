@@ -53,10 +53,10 @@ first_screen:
   enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
-  background_img: /images/bg.svg
+  background_img: /images/addons_master.png
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/bg.svg
+  background_img_dark: /images/bg3.svg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
@@ -70,7 +70,7 @@ first_screen:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
@@ -147,7 +147,7 @@ post:
   copyright_info: false  # Option values: true | false
 
   # Post share
-  share: false           # Option values: true | false
+  share: true           # Option values: true | false
 
   # Reward author
   reward:
@@ -171,13 +171,13 @@ code_block:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/toc.html
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
 
   # Automatically add list number to toc
-  number: false      # Option values: true | false
+  number: true      # Option values: true | false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false  # Option values: true | false
+  expand_all: true  # Option values: true | false
 
   # If true, auto open TOC every time when you enter post page
   init_open: true    # Option values: true | false
@@ -205,7 +205,7 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false   # Option values: true | false
+  enable: true   # Option values: true | false
   preload: false  # Preload the search data when the page loads. Option values: true | false
 
 

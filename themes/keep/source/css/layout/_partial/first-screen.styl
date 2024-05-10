@@ -13,15 +13,16 @@ $fs-bg-img-dark = $temp-fs-bg-img-dark ? $temp-fs-bg-img-dark : $fs-bg-img-light
 $root = hexo-config('root')
 
 .first-screen-container {
-  width 100%
+  width 98%
   height 100vh
   overflow hidden
   background-image url($root + $fs-bg-img-light)
-  background-position-x center
+  background-position-x right
   background-position-y center
-  background-size cover
+  background-size 50% auto
   background-repeat-x no-repeat
   background-repeat-y no-repeat
+  background-repeat no-repeat
 
 
   .dark-mode & {
@@ -31,7 +32,7 @@ $root = hexo-config('root')
   .first-screen-content {
     display flex
     flex-direction column
-    align-items center
+    align-items flex-start
     justify-content space-between
     width 80%
     height 90%

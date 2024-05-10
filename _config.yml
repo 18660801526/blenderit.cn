@@ -4,7 +4,7 @@
 
 # Site
 title: Blender插件管理大师
-subtitle: ''
+subtitle: 'Blender插件管理大师'
 description: 'BLender找插件和用插件的终极解决方案'
 keywords: 'Blender,Blender插件,Blender插件怎么用,Blender插件去哪里下载'
 author: Blenderit
@@ -96,9 +96,24 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: keep
+theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+search:
+  path: search.xml
+  field: post
+
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
