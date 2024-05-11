@@ -43,9 +43,11 @@
                             %>
                             <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= post.title %>">
                             <% } %>
-                            <span class="card-title"><%= post.title %></span>
                         </div>
                     </a>
+                    <div class="card-content article-content">
+                        <span class="card-title"><%= post.title %></span>
+                    </div>
                     <div class="card-content article-content">
                         <div class="publish-info">
                             <span class="publish-date">
