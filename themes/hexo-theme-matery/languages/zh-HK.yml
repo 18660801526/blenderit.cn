@@ -7,7 +7,7 @@ archives: 歸檔
 about: 關於
 contact: 留言板
 friends: 友情連結
-startRead: 開始閱讀
+startRead: 快速了解
 recommendedPosts: 推薦文章
 publishDate: 發布日期
 updateDate: 更新日期
@@ -73,8 +73,9 @@ siteTotalWords: 站點總字數
 siteTotalVisits: 總訪問量
 siteTotalVisitors: 總訪問人數
 Index: 首页
-Tags: 标签
-Categories: 分类
+Tags: 标签云
+Addons: 找插件
+Categories: 所有分类
 Archives: 归档
 About: 关于
 Contact: 留言板

@@ -8,7 +8,7 @@ about: 关于
 galleries: 相册
 contact: 留言板
 friends: 友情链接
-startRead: 找插件
+startRead: 快速了解
 recommendedPosts: 推荐文章
 publishDate: 发布日期
 updateDate: 更新日期
@@ -74,8 +74,9 @@ siteTotalWords: 站点总字数
 siteTotalVisits: 总访问量
 siteTotalVisitors: 总访问人数
 Index: 首页
-Tags: 标签
-Categories: 分类
+Tags: 标签云
+Addons: 找插件
+Categories: 所有分类
 Archives: 归档
 About: 关于
 Contact: 留言板

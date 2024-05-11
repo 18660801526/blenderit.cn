@@ -38,9 +38,7 @@
 
 
 
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
     <link rel="stylesheet" href="/css/post.css">
-
 
 
 
@@ -85,11 +83,22 @@
   
   <li class="hide-on-med-and-down nav-item">
     
+    <a href="/tags/%E6%8F%92%E4%BB%B6/" class="waves-effect waves-light">
+      
+      <i class="fa fa-plug" style="zoom: 0.6;"></i>
+      
+      <span>找插件</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
     <a href="/tags" class="waves-effect waves-light">
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
-      <span>标签</span>
+      <span>标签云</span>
     </a>
     
   </li>
@@ -100,7 +109,7 @@
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>分类</span>
+      <span>所有分类</span>
     </a>
     
   </li>
@@ -169,11 +178,22 @@
         
         <li class="m-nav-item">
 	  
+		<a href="/tags/%E6%8F%92%E4%BB%B6/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-plug"></i>
+			
+			找插件
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
 		<a href="/tags" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-tags"></i>
 			
-			标签
+			标签云
 		</a>
           
         </li>
@@ -184,7 +204,7 @@
 			
 			    <i class="fa-fw fas fa-bookmark"></i>
 			
-			分类
+			所有分类
 		</a>
           
         </li>
@@ -254,9 +274,7 @@
 
 
     <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+        $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
     </script>
 
 
@@ -522,8 +540,6 @@ $(function () {
     })();
 </script>
 
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
 

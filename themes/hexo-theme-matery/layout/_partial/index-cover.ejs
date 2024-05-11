@@ -19,7 +19,7 @@ var coverPostsCount = coverPosts.length;
         </div>
     <% } %>
 
-    <div class="carousel-item  white-text bg-cover about-cover">
+    <div class="carousel-item white-text bg-cover about-cover" style="height: 1020px">
         <div class="container">
             <%- partial('_partial/bg-cover-content') %>
 
@@ -30,7 +30,9 @@ var coverPostsCount = coverPosts.length;
                         %>" class="waves-effect waves-light btn">
                     <i class="fa fa-angle-double-down"></i><%- __('startRead') %>
                 </a>
-
+                <a href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light btn" target="_blank">
+                    <i class="fa fa fa-download"></i>下载安装
+                </a>
                 <% if (theme.indexbtn && theme.indexbtn.enable) { %>
                     <a href="<%- url_for(theme.indexbtn.url) %>" class="waves-effect waves-light btn" target="_blank">
                         <i class="<%- theme.indexbtn.icon %>"></i><%= theme.indexbtn.name %>
@@ -42,6 +44,7 @@ var coverPostsCount = coverPosts.length;
                 <% } %>
             </div>
             <div class="cover-social-link"><%- partial('_partial/social-link') %></div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     </div>
 

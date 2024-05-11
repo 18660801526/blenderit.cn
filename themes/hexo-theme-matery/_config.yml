@@ -4,6 +4,9 @@ menu:
   Index:
     url: /
     icon: fas fa-home
+  Addons:
+    url: /tags/插件/
+    icon: fa fa-plug
   Tags:
     url: /tags
     icon: fas fa-tags
@@ -71,7 +74,7 @@ cover:
 # index page dream text,
 # 配置首页显示"梦想"的语句.
 dream:
-  enable: true
+  enable: false
   showTitle: true
   title: 我的梦想
   text: 开发出原创、好用、实用的国产软件，给别人带来价值！
@@ -122,7 +125,7 @@ musics:
 video:
   enable: true
   showTitle: true
-  title: 精彩视频
+  title: 快速了解
   url: # url和iframeUrl其中一个必填
   iframeUrl: //player.bilibili.com/player.html?aid=1704266003&bvid=BV14T421Q725&cid=1538326188&p=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic:
@@ -151,7 +154,7 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: true
+  enable: false
   name: 用插件
   icon: fa fa-download
   url: https://gf.bilibili.com/item/detail/1105530057
@@ -174,7 +177,7 @@ socialLink:
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
 # 可以在某篇文章的 Front-matter 中再加上`toc: false`，使该篇文章关闭TOC目录功能
 toc:
-  enable: true
+  enable: false
   heading: h2, h3, h4
   collapseDepth: 0 # 目录默认展开层级
   showToggleBtn: true # 是否显示切换TOC目录展开收缩的按钮
@@ -226,7 +229,7 @@ postInfo:
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
 clicklove:
-  enable: true
+  enable: false
 
 # | 文件名             | 说明                   |
 # | :----------------- | :--------------------- |
@@ -644,9 +647,9 @@ instantpage:
 # banner 是否每日切换.
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg
 banner:
-  enable: true
+  enable: false
   # 开启随机 featureimages 图片
-  random: true
+  random: false
 
 # 中文繁简转换开关
 # 显示在底部 footer 栏

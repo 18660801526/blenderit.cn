@@ -241,7 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background-image: linear-gradient(to right, rgba(56, 113, 255, 0.9), rgba(56, 113, 255, 0.9));
 }
 
 .text-color {
@@ -369,16 +370,16 @@ header .side-nav .social-link {
 
 .cover-btns {
     position: relative;
-    top: 10vh;
+    top: 3vh;
     text-align: center;
 }
 
 .cover-btns a {
     margin: 10px 15px;
     padding: 0 35px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 1rem;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
@@ -502,7 +503,7 @@ header .side-nav .social-link {
 
 .cover-social-link {
     position: relative;
-    top: 23vh;
+    top: 5vh;
     width: 100%;
     text-align: center;
 }
@@ -533,13 +534,14 @@ header .go-back i {
     position: relative;
     display: flex;
     align-items: center;
-    height: 60vh;
+    height: 40vh;
     padding: 0;
     border: 0;
     overflow: hidden;
-    background-position: center center;
-    background-size: cover;
-    transform: translate3d(0px, 0px, 0px);
+    background-repeat: repeat-x;
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*transform: translate3d(0px, 0px, 0px);*/
 }
 
 .index-cover {
@@ -551,8 +553,8 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    -webkit-animation: rainbow2 60s infinite;
+    animation: rainbow2 60s infinite;
 }
 
 .bg-cover:before,
@@ -571,6 +573,7 @@ header .go-back i {
     position: relative;
     color: #fff;
     z-index: 2;
+    font-weight: bold;
 }
 
 .bg-cover .title {
@@ -593,6 +596,27 @@ header .go-back i {
     font-weight: 400;
 }
 
+@-webkit-keyframes rainbow2 {
+
+    0%,
+    100% {
+        background: rgba(56, 113, 255, 0.9);
+        background: linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+        background: -moz-linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+    }
+}
+
+@keyframes rainbow2 {
+
+    0%,
+    100% {
+        background: rgba(56, 113, 255, 0.75);
+        background: linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+        background: -moz-linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(56, 113, 255, 0.9) 0%, rgba(133, 213, 251, 0.9) 100%);
+    }
+}
 @-webkit-keyframes rainbow {
 
     0%,
