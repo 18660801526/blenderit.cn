@@ -19,6 +19,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
+  Download:
+    url: https://gf.bilibili.com/item/detail/1105530057
+    icon: fa fa-download
 #  Contact:
 #    url: /contact
 #    icon: fas fa-comments
