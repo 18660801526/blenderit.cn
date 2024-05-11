@@ -45,4 +45,24 @@
         <tag>关于</tag>
       </tags>
   </entry>
+  <entry>
+    <title>即刻材质插件 RealTime Materials V2.1.6，内置270多种材质，拿来即用</title>
+    <url>/2024/05/11/addons/realtime-materials2.1.6/</url>
+    <content><![CDATA[<h2 id="即刻材质插件"><a href="#即刻材质插件" class="headerlink" title="即刻材质插件"></a>即刻材质插件</h2><p>Real Time Materials包含270组真实的贴图材质，使用很方便，多种参数可以调节</p>
+<p>支持的Blender版本：</p>
+<p>Blender 3.0+</p>
+<h2 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h2><p><strong>方式一：</strong></p>
+<p>在插件管理大师中一键下载安装</p>
+<p><strong>方式二：</strong></p>
+<p>在顶部菜单编辑(Edit)-首选项(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装</p>
+]]></content>
+      <categories>
+        <category>材质</category>
+        <category>插件</category>
+      </categories>
+      <tags>
+        <tag>材质</tag>
+        <tag>插件</tag>
+      </tags>
+  </entry>
 </search>
