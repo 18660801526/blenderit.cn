@@ -35,9 +35,12 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.prev.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.prev.title %></span>
+
                     </div>
                 </a>
+                <div class="card-content article-content">
+                    <span class="card-title"><%= page.prev.title %></span>
+                </div>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         <% if (page.prev.summary && page.prev.summary.length > 0) { %>
@@ -95,9 +98,12 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.title %></span>
+
                     </div>
                 </a>
+                <div class="card-content article-content">
+                    <span class="card-title"><%= page.title %></span>
+                </div>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         <% if (page.summary && page.summary.length > 0) { %>
@@ -157,9 +163,12 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.next.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.next.title %></span>
+
                     </div>
                 </a>
+                <div class="card-content article-content">
+                    <span class="card-title"><%= page.next.title %></span>
+                </div>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         <% if (page.next.summary && page.next.summary.length > 0) { %>
@@ -217,9 +226,12 @@ var featureImages = theme.featureImages;
                         %>
                         <img src="<%- theme.jsDelivr.url %><%- url_for(featureimg) %>" class="responsive-img" alt="<%= page.title %>">
                         <% } %>
-                        <span class="card-title"><%= page.title %></span>
+
                     </div>
                 </a>
+                <div class="card-content article-content">
+                    <span class="card-title"><%= page.title %></span>
+                </div>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         <% if (page.summary && page.summary.length > 0) { %>

@@ -85,7 +85,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
+                <% if(page.iframeUrl){ %>
+                    <%- partial('_partial/post-video') %>
+                <% } %>
                 <%- page.content %>
+
                 <% if (theme.bbtime.enable && page.layout == 'bb') { %>
                     <link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for('/css/bb.css') %>">
                     <style>

@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for(theme.libs.css.dplayer) %>">
+<div class="video-player">
+    <div class="row">
+		<% if (page.iframeUrl) { %>
+            <iframe src='<% if (page.iframeUrl) { %><%- url_for(page.iframeUrl) %><% } %>' scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" align="middle" <% if (theme.video.height) { %> style="height: <%- theme.video.height %>px;"<% } %> width="100%"> </iframe>
+		<% } %>
+    </div>
+</div>
+
+<script src="<%- theme.jsDelivr.url %><%- url_for(theme.libs.js.dplayer) %>"></script>
