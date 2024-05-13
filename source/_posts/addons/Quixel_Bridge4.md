@@ -10,6 +10,7 @@ categories:
   - 插件
   - 工具
 iframeUrl: //player.bilibili.com/player.html?aid=1704628585&bvid=BV1BT421D7XZ&cid=1543918867&p=1
+img: /images/addons/quixel_bridge4_logo.png
 showGetMethod: true
 sendMessage: Quixcel Bridge
 copyright: 本插件资源来自网络，仅供学习交流使用。
