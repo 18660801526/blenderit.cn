@@ -12,7 +12,7 @@ categories:
 iframeUrl: //player.bilibili.com/player.html?aid=1704628585&bvid=BV1BT421D7XZ&cid=1543918867&p=1
 showGetMethod: true
 sendMessage: Quixcel Bridge
-copyright: 本插件由blenderit开发，可从插件市场下载使用。
+copyright: 本插件资源来自网络，仅供学习交流使用。
 ---
 
 ## Quixcel_Bridge4插件
