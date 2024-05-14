@@ -7,7 +7,7 @@ tags:
 categories:
   - 材质
   - 插件
-iframeUrl: //player.bilibili.com/player.html?aid=1254019505&bvid=BV1XJ4m1E79d&cid=1533557738&p=1
+iframeUrl: //player.bilibili.com/player.html?aid=1254019505&bvid=BV1XJ4m1E79d&cid=1533557738&p=1&high_quality=1
 showGetMethod: true
 sendMessage: 即刻材质
 copyright: 本插件资源来自网络，仅供学习交流使用。
