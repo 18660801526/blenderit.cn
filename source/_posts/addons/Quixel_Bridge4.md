@@ -12,11 +12,11 @@ categories:
 iframeUrl: //player.bilibili.com/player.html?aid=1704628585&bvid=BV1BT421D7XZ&cid=1543918867&p=1
 img: /images/addons/quixel_bridge4_logo.png
 showGetMethod: true
-sendMessage: Quixcel Bridge
+sendMessage: Quixel Bridge
 copyright: 本插件资源来自网络，仅供学习交流使用。
 ---
 
-## Quixcel_Bridge4插件
+## Quixel Bridge4插件
 Quixel bridge近2万个素材一键导入blender，支持blender3.1-4.1
 
 
