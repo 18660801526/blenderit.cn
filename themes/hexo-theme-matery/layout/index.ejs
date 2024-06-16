@@ -4,12 +4,13 @@
     <%- partial('_partial/bg-cover') %>
 <% } %>
 <%- partial('_partial/bg-video') %>
-<main class="content" style="margin-top: -500px;">
+<main class="content" >
+
 
     <% if (page.current === 1
-            && ((theme.dream.enable || theme.music.enable)
-                    || theme.video.enable || theme.recommend.enable)) { %>
-    <div id="indexCard" class="index-card">
+                && ((theme.dream.enable || theme.music.enable)
+                        || theme.video.enable || theme.recommend.enable)) { %>
+    <div id="indexCard" class="index-card" style="margin-top: -500px;">
         <div class="container ">
             <div class="card">
                 <div class="card-content">

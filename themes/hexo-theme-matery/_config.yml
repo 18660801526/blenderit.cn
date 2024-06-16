@@ -4,9 +4,9 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Addons:
-    url: /tags/插件/
-    icon: fa fa-plug
+#  Addons:
+#    url: /tags/插件/
+#    icon: fa fa-plug
   Tags:
     url: /tags
     icon: fas fa-tags
@@ -80,7 +80,7 @@ dream:
   enable: false
   showTitle: true
   title: 我的梦想
-  text: 开发出原创、好用、实用的国产软件，给别人带来价值！
+  text: 开发出原创、好用、实用的国产软件，给用户带来价值！
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -180,7 +180,7 @@ socialLink:
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
 # 可以在某篇文章的 Front-matter 中再加上`toc: false`，使该篇文章关闭TOC目录功能
 toc:
-  enable: false
+  enable: true
   heading: h2, h3, h4
   collapseDepth: 0 # 目录默认展开层级
   showToggleBtn: true # 是否显示切换TOC目录展开收缩的按钮
@@ -262,7 +262,7 @@ snowdown:
 profile:
   avatar: /medias/avatar.jpg
   career: 爱上Blender的程序员
-  introduction: 开发出原创、好用、实用的国产软件，给别人带来价值！
+  introduction: 开发出原创、好用、实用的国产软件，给用户带来价值！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.

@@ -20,10 +20,11 @@
     var containerClass = isTocEnable ? 'post-container' : 'container';
 %>
 
-<main class="<%- containerClass %> content" style="margin-top: 64px;">
+<main class="<%- containerClass %> content">
 
     <% if (isTocEnable) { %>
-    <%- partial('_partial/post-detail-toc.ejs') %>
+<!--        原版为post-detail-toc.ejs-->
+    <%- partial('_partial/post-detail-toc2.ejs') %>
     <% } else { %>
     <%- partial('_partial/post-detail.ejs') %>
     <% } %>

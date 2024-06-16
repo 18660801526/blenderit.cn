@@ -89,7 +89,11 @@
                     <%- partial('_partial/post-video') %>
                 <% } %>
                 <%- page.content %>
+                    <% if(page.source_link){ %>
+                        <hr/>
+                        <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="<%- page.source_link %>" style="width: 100%"><span class="mb-text"><i class="fa fa-download" style="margin-right: 10px"></i>去原文查看并下载插件</span></a></p>
 
+                    <% } %>
                 <% if (theme.bbtime.enable && page.layout == 'bb') { %>
                     <link rel="stylesheet" href="<%- theme.jsDelivr.url %><%- url_for('/css/bb.css') %>">
                     <style>
