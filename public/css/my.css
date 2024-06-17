@@ -1,1 +1,139 @@
 /* Here is your custom css styles. */
+.maxbutton-3.maxbutton.maxbutton-baidu {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 272px;
+    height: 68px;
+    border-width: 0px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #59b54d;
+    box-shadow: none
+}
+
+.maxbutton-3.maxbutton.maxbutton-baidu:hover {
+    background-color: #369e31;
+    box-shadow: none
+}
+
+.maxbutton-3.maxbutton.maxbutton-baidu .mb-text {
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 24px 0px 0px 0px
+}
+
+.maxbutton-3.maxbutton.maxbutton-baidu:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px) {
+    .maxbutton-3.maxbutton.maxbutton-baidu {
+        width:90%
+    }
+
+    .maxbutton-3.maxbutton.maxbutton-baidu .mb-text {
+        font-size: 12px
+    }
+}
+
+.maxbutton-1.maxbutton.maxbutton-taobao {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 272px;
+    height: 68px;
+    border-width: 0px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #59b54d;
+    box-shadow: none
+}
+
+.maxbutton-1.maxbutton.maxbutton-taobao:hover {
+    background-color: #369e31;
+    box-shadow: none
+}
+
+.maxbutton-1.maxbutton.maxbutton-taobao .mb-text {
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 24px 0px 0px 0px
+}
+
+.maxbutton-1.maxbutton.maxbutton-taobao:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px) {
+    .maxbutton-1.maxbutton.maxbutton-taobao {
+        width:90%
+    }
+
+    .maxbutton-1.maxbutton.maxbutton-taobao .mb-text {
+        font-size: 12px
+    }
+}
+
+
+.maxbutton-download-master {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 272px;
+    height: 68px;
+    border-width: 0px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: #4971F1;
+    box-shadow: none
+}
+
+.maxbutton-download-master:hover {
+    background-color: #4265D8;
+    box-shadow: none
+}
+
+.maxbutton-download-master .mb-text {
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 24px 0px 0px 0px
+}
+
+.maxbutton-download-master:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px) {
+    .maxbutton-download-master {
+        width:90%
+    }
+
+    .maxbutton-download-master .mb-text {
+        font-size: 12px
+    }
+}

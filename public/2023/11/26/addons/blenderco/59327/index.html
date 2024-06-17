@@ -1,0 +1,1069 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Blender 插件：资产创建工具集(功能很多), Blender插件管理,Blender插件,Blender插件怎么用,Blender插件去哪里下载,Blender插件教程,Blender免费插件,Blender插件资源,Blender插件网,Blender插件网站,Blender插件下载">
+    <meta name="description" content="Blender 插件：资产创建工具集(功能很多)">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Blender 插件：资产创建工具集(功能很多) | Blender插件管理大师</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Blender插件管理大师</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签云</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>所有分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light">
+      
+      <i class="fa fa-download" style="zoom: 0.6;"></i>
+      
+      <span>下载安装</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"> 找插件</i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Blender插件管理大师</div>
+        <div class="logo-desc">
+            
+            Blender插件管理;BLender找插件、用插件的终极解决方案;找插件、用插件，安装这一个就够了;提供Blender找插件和用插件的一条龙服务
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签云
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			所有分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-download"></i>
+			
+			下载安装
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://img.alicdn.com/imgextra/i3/1856665554/O1CN01p2G1eH1qtmePpNThw_!!1856665554.jpg');background-repeat: no-repeat;background-size: cover;background-position: center center;">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Blender 插件：资产创建工具集(功能很多)</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+<!--        原版为post-detail-toc.ejs-->
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6/">
+                                <span class="chip bg-color">其他插件</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/blenderco/" class="post-category">
+                                blenderco
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-11-26
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-11-26
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    1.5k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    5 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                
+                
+<h1>Blender 插件：资产创建工具集</h1><p dir="auto"><a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/headers/ACT_Header_1920.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01WHT2c21qtmeHd9XT6_!!1856665554.jpg" alt="bude_2023-11-26_21-26-57.jpg"></a></p><p dir="auto"><strong>资源创建工具集</strong>是用于 Blender 2.79、2.8 和 3.0（及更高版本）的游戏资产创建工具（批量导入/导出 FBX、原产地连接工具、重命名、Low-Poly Art 工作流程工具等）的许多工具。</p><p dir="auto"><em><strong>下载最新版本：</strong></em></p><ul>
+<li>github.com/mrven/Blender-Asset-Creation-Toolset/releases/tag/v.2023.1</li>
+</ul><h2><a id="user-content-new-in-asset-creation-toolset-2023" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#new-in-asset-creation-toolset-2023" aria-hidden="true"></a>资产创建工具集 2023 的新增功能</h2><h3><a id="user-content-new-export-algorithm-for-unity-fix-flip-orientation-linked-objects-support-animation-support" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#new-export-algorithm-for-unity-fix-flip-orientation-linked-objects-support-animation-support" aria-hidden="true"></a>Unity 的新导出算法（修复翻转方向、链接对象支持、动画支持）</h3><p dir="auto">现在，ACT 有两种不同的算法用于将 FBX 导出到 Unity：“Unity<em><strong>”</strong></em>和<em><strong>“Unity （Legacy）”。</strong></em><br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/01_Target.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i2/1856665554/O1CN01sNqhh21qtmePpS2nZ_!!1856665554.jpg" alt="bude_2023-11-26_21-28-45.jpg"></a></p><h4><a id="user-content-unity-export-profile" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#unity-export-profile" aria-hidden="true"></a>“Unity”导出配置文件</h4><p dir="auto">此配置文件支持具有链接数据的对象，更精确地用于装备、动画、角度和轴。<em><strong>但是，此导出配置文件需要在 Unity 中使用模型执行其他步骤。</strong></em>您必须在模型导入设置中将“比例因子”设置为 100，并选中选项“烘焙轴转换”。<br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/02_Import_Settings.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01GjJtrn1qtmeRu7lrC_!!1856665554.jpg" alt="bude_2023-11-26_21-28-52.jpg"></a></p><p dir="auto">为了实现自动化，我创建了 <em><strong>Unity 编辑器脚本</strong></em>，您可以使用以下不同的方式：</p><ol>
+<li>选择模型 -&gt; 元 -&gt; ACT/修复模型变换。<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/03_Fix_Transforms.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01Aazl8L1qtmeHdGrCS_!!1856665554.jpg" alt="bude_2023-11-26_21-29-00.jpg"></a></li>
+<li>打开 ACT 设置窗口（窗口 -&gt; ACT -&gt; 设置）并启用模型后处理器。它会自动为每个模型（或名称包含指定字符串或字符的模型）设置导入设置。<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/06_ACT_Settings_3.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01pE1eJc1qtmePqK1ct_!!1856665554.jpg" alt="bude_2023-11-26_21-29-09.jpg"></a><br>
+Unity 编辑器 ACT 脚本随 ACT Blender 插件一起分发。</li>
+</ol><h4><a id="user-content-unity-export-profile-1" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#unity-export-profile-1" aria-hidden="true"></a>“Unity”导出配置文件</h4><p dir="auto">但你也可以使用以前的算法：此算法不需要在 Unity 中执行其他操作，并且此导出配置文件提供与现有模型的向后兼容性。<br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/07_Old_Algorithm.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01PiCJY41qtmeSP07Cm_!!1856665554.jpg" alt="bude_2023-11-26_21-29-58.jpg"></a></p><h3><a id="user-content-added-feature-origin-to-middle-point-from-mokalux" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-feature-origin-to-middle-point-from-mokalux" aria-hidden="true"></a>从@mokalux添加了“原点到中点”功能</h3><p dir="auto">“对齐原点”的新选项：将原点移动到“最小值”和“最大值”之间的中间点。感谢@mokalux的实施！<br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/08_Align_Middle.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01PLUBZD1qtmeQpjtGO_!!1856665554.jpg" alt="bude_2023-11-26_21-30-06.jpg"></a></p><h3><a id="user-content-added-feature-collection-name---obj-name-from-oxicid" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-feature-collection-name---obj-name-from-oxicid" aria-hidden="true"></a>添加了@Oxicid中的“集合名称 – &gt; Obj 名称”功能</h3><p dir="auto">将集合名称传输到对象名称。为此，您可以使用 dirrernt 方法：</p><ol>
+<li>在当前对象名称之前或之后添加了集合名称。例如，“<em><strong>CollectionName_ObjectName”</strong></em>或<em><strong>“ObjectName_CollectionName”</strong></em></li>
+<li>将对象名称替换为“集合名称 + 类型 + 编号”，例如“<em><strong>CollectionName_Mesh_001”</strong></em>或<em><strong>“CollectionName_MESH_001”。</strong></em>感谢@Oxicid实施！<br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/09_Col_To_Name.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i2/1856665554/O1CN0126xzl81qtmeQoL9qw_!!1856665554.jpg" alt="bude_2023-11-26_21-30-13.jpg"></a></li>
+</ol><h3><a id="user-content-added-replacing-of-invalid-characters-to-_-in-exports-name-" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-replacing-of-invalid-characters-to-_-in-exports-name-" aria-hidden="true"></a>添加了将无效字符替换为导出名称中的“_”（[#%&amp;{}&lt;&gt;*？/’“：’|]）</h3><p dir="auto">无效字符将仅替换文件名中的字符，而不替换对象名称中的字符。如果您使用特殊字符进行命名，这将非常有用。</p><h3><a id="user-content-added-option-combine-all-meshes-for-export-fbxobj-by-parentcollection" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-option-combine-all-meshes-for-export-fbxobj-by-parentcollection" aria-hidden="true"></a>添加了“合并所有网格”选项，用于按父级/集合导出 FBX/OBJ</h3><p dir="auto">“<em><strong>合并所有网格”</strong></em>选项现在不仅适用于“多&gt;一 FBX”导出。</p><h3><a id="user-content-added-custom-export-fbx-option-add-leaf-bones-by-default-add-leaf-bones-option-is-disabled-now" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-custom-export-fbx-option-add-leaf-bones-by-default-add-leaf-bones-option-is-disabled-now" aria-hidden="true"></a>添加了自定义导出 FBX 选项“添加叶骨”。默认情况下，“添加叶骨”选项现在处于禁用状态。</h3><p dir="auto"><a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/10_Leaf_Bones.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01qiLJHH1qtmeNtTDDY_!!1856665554.jpg" alt="bude_2023-11-26_21-30-55.jpg"></a></p><h3><a id="user-content-added-custom-export-fbx-option-vc-color-space-by-default-vc-color-space-is-linear-now" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#added-custom-export-fbx-option-vc-color-space-by-default-vc-color-space-is-linear-now" aria-hidden="true"></a>添加了自定义导出 FBX 选项“VC 色彩空间”。默认情况下，VC 色彩空间现在是线性的。</h3><p dir="auto">您可以在顶点颜色的“<em><strong>线性</strong></em>”和<em><strong>“sRGB”</strong></em>颜色空间之间进行选择。我选择线性作为默认值，因为顶点颜色通常用于遮罩，而不是颜色信息。<br>
+<a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/2023/11_VC_Color_Space.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01UuBmiT1qtmeQoOuyS_!!1856665554.jpg" alt="bude_2023-11-26_21-31-00.jpg"></a></p><h2><a id="user-content-features" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#features" aria-hidden="true"></a>特征</h2><h4><a id="user-content-origin-align-tool" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#origin-align-tool" aria-hidden="true"></a>原点对齐工具</h4><p dir="auto">Aligment 原点：</p><ul>
+<li>X、Y 或 Z 轴物体的最大/最小点</li>
+<li>3D 光标（独立轴）</li>
+<li>坐标（独立轴）</li>
+</ul><h4><a id="user-content-set-origin-to-selected-edit-mode" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#set-origin-to-selected-edit-mode" aria-hidden="true"></a>将“原点”设置为“已选定”（编辑模式）</h4><p dir="auto">将原点设置为所选元素</p><h4><a id="user-content-uv-tools" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#uv-tools" aria-hidden="true"></a>UV工具</h4><ul>
+<li>按索引批量重命名 UV（例如，光照贴图 – 第二个 UV 通道）</li>
+<li>批量添加具有自定义名称的 UV</li>
+<li>按索引批量删除 UV</li>
+<li>通过UV指数为3D视图和图像/UV编辑器中的选定对象设置活动UV图层</li>
+</ul><p dir="auto"><button class="AnimatedImagePlayer-images" data-target="animated-image.imageButton"></button> <a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/02_UV_Tools.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i3/1856665554/O1CN01hUwFxi1qtmeQpqXGQ_!!1856665554.jpg" alt="bude_2023-11-26_21-31-39.jpg"></a></p><h4><a id="user-content-quick-select-texture-from-active-material-in-uv-editor" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#quick-select-texture-from-active-material-in-uv-editor" aria-hidden="true"></a>在UV编辑器中从活动材质中快速选择纹理</h4><p dir="auto"><a href="https://github.com/mrven/Blender-Asset-Creation-Toolset/blob/master/images/pngs/03_Quick_Select_Texture.png" target="_blank" rel="noopener noreferrer"> <img src="https://img.alicdn.com/imgextra/i4/1856665554/O1CN01niq9wc1qtmeVhgCyI_!!1856665554.jpg" alt="bude_2023-11-26_21-31-45.jpg"></a></p><h4><a id="user-content-numbering-objects" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#numbering-objects" aria-hidden="true"></a>对对象进行编号</h4><p dir="auto">删除 Blender 的默认编号，并按轴和模式添加新编号：</p><ul>
+<li>xxx_1、xxx_10、xxx_100</li>
+<li>xxx_01、xxx_10、xxx_100</li>
+<li>xxx_001、xxx_010、xxx_100</li>
+</ul><h4><a id="user-content-clear-custom-normals" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#clear-custom-normals" aria-hidden="true"></a>清除自定义法线</h4><p dir="auto">清除“自定义法线”，并将“选定对象”的“自动平滑”设置为 180 度。</p><p dir="auto">
+</p><h4><a id="user-content-flipcalculate-normals" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#flipcalculate-normals" aria-hidden="true"></a>翻转/计算法线</h4><p dir="auto">在对象模式下翻转或重新计算选定对象的法线。</p><p dir="auto">
+</p><h4><a id="user-content-export-obj-or-fbx-to-unityue4" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#export-obj-or-fbx-to-unityue4" aria-hidden="true"></a>将 OBJ 或 FBX 导出到 Unity/UE4</h4><p dir="auto">批量导出 Unity 或 UE4 的选定对象（修复缩放和旋转）。一些可用的模式：</p><ul>
+<li>将所有选定对象导出到一个 FBX/OBJ 中</li>
+<li>将每个对象导出到单独的 FBX/OBJ 中</li>
+<li>按父级批量处理对象</li>
+<li>按集合批处理对象</li>
+</ul><p dir="auto">
+</p><h4><a id="user-content-import-fbxsobjs" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#import-fbxsobjs" aria-hidden="true"></a>导入 FBX/OBJ</h4><p dir="auto">批量导入具有默认参数的 FBX 和 OBJ 文件。</p><p dir="auto">
+</p><h4><a id="user-content-create-palette-textures-albedo-roughness-metallic-opacity-and-emission" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#create-palette-textures-albedo-roughness-metallic-opacity-and-emission" aria-hidden="true"></a>创建调色板纹理（反照率、粗糙度、金属、不透明度和发射）</h4><p dir="auto">为使用彩色材质绘制的选定对象创建调色板纹理 （32x32px）。在一个调色板中，纹理最多可以有 256 种颜色（材料）。<strong>注意：Blender 2.79 使用 Blender Render，Blender 2.8 使用 Cycles Render</strong></p><h4><a id="user-content-clear-uv-mapsclear-vertex-color" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#clear-uv-mapsclear-vertex-color" aria-hidden="true"></a>清晰的UV贴图/清晰的顶点颜色</h4><p dir="auto">只需从所选对象中删除所有UV贴图或所有顶点颜色即可。</p><h4><a id="user-content-obj-name---data-name" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#obj-name---data-name" aria-hidden="true"></a>Obj 名称 -&gt; 数据名称</h4><p dir="auto">将对象名称复制到 mesh/font/etc.（data-block） 名称。</p><h4><a id="user-content-uv-mover-uv-image-editor" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#uv-mover-uv-image-editor" aria-hidden="true"></a>UV Mover（UV图像编辑器）</h4><p dir="auto">工具，使阿特拉斯包装更轻松。</p><h4><a id="user-content-material---viewport-color" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#material---viewport-color" aria-hidden="true"></a>材质 -&gt; 视口颜色</h4><p dir="auto">将材质基色转换为实体视图模式的视口颜色。</p><h4><a id="user-content-delete-unused-materials" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#delete-unused-materials" aria-hidden="true"></a>删除未使用的材料</h4><p dir="auto">从选定对象中删除未使用的材质（未应用于面）和未使用的材质槽。</p><h4><a id="user-content-add-l-or-r-suffix-to-bones" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#add-l-or-r-suffix-to-bones" aria-hidden="true"></a>加。L 或 .R 后缀到 Bones</h4><p dir="auto">快速添加后缀。L 或 .R 到选定的骨骼。</p><h4><a id="user-content-merge-bones-tool" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#merge-bones-tool" aria-hidden="true"></a>合并骨骼工具</h4><p dir="auto">轻松简化骨架的工具：删除（或溶解）选定的骨骼（不包括活动骨骼）并将顶点权重转移到活动骨骼。</p><p dir="auto">
+</p><h4><a id="user-content-active-material---selected" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#active-material---selected" aria-hidden="true"></a>活性物质 -&gt; 已选</h4><p dir="auto">在多重编辑模式下将活动材质分配给选定的面。</p><h4><a id="user-content-addon-preferences" class="anchor" target="_blank" rel="noopener" href="https://github.com/mrven/Blender-Asset-Creation-Toolset#addon-preferences" aria-hidden="true"></a>插件首选项</h4><ul>
+<li>通过插件首选项显示/隐藏 UI 面板</li>
+<li>从“首选项”更改每个面板的类别</li>
+</ul><p dir="auto">
+			    						    					    				    					            </p>
+<div style="display: none">blenderco</div>
+
+
+                    
+                        <hr/>
+                        <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://blenderco.cn/59327.html" style="width: 100%"><span class="mb-text"><i class="fa fa-download" style="margin-right: 10px"></i>去原文查看并下载插件</span></a></p>
+
+                    
+                
+            </div>
+
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">blenderit</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://blenderit.cn/2023/11/26/addons/blenderco/59327/">https://blenderit.cn/2023/11/26/addons/blenderco/59327/</a>
+                </span>
+            </div>
+            
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        原文链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a target="_blank" rel="noopener" href="https://blenderco.cn/59327.html">https://blenderco.cn/59327.html</a>
+                </span>
+            </div>
+            
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">blenderit</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E5%85%B6%E4%BB%96%E6%8F%92%E4%BB%B6/">
+                                    <span class="chip bg-color">其他插件</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+    
+
+    
+        <div class="card">
+            <div class="card-content article-card-content" style="padding-top: 5px">
+                <h1>版权声明</h1>
+                <hr class="clearfix">
+                <div id="articleContent">
+                    <p style="color: red">本插件资源来自网络，版权归原作者所有，仅供交流学习使用！</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2023/11/26/addons/blenderco/59340/">
+                    <div class="card-image">
+                        
+                        <img src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01UmgzPm1qtmeUp1GON_!!1856665554.jpg" class="responsive-img" alt="Blender剖面显示插件 Section Box-2.0.6 最新版2.0.9">
+                        
+
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <span class="card-title">Blender剖面显示插件 Section Box-2.0.6 最新版2.0.9</span>
+                </div>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Blender剖面显示插件 Section Box-2.0.6 最新版2.0.9
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-11-26
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blenderco/" class="post-category">
+                                    blenderco
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%9F%8E%E5%B8%82%EF%BC%8C%E5%BB%BA%E7%AD%91%E6%8F%92%E4%BB%B6/">
+                        <span class="chip bg-color">城市，建筑插件</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/11/26/addons/blenderco/59381/">
+                    <div class="card-image">
+                        
+                        <img src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01qf1wF61qtmePpQdcA_!!1856665554.jpg" class="responsive-img" alt="Blender火焰曲线，划线生成火焰资产分享">
+                        
+
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <span class="card-title">Blender火焰曲线，划线生成火焰资产分享</span>
+                </div>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Blender火焰曲线，划线生成火焰资产分享
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-11-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/blenderco/" class="post-category">
+                                    blenderco
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%87%A0%E4%BD%95%E8%8A%82%E7%82%B9/">
+                        <span class="chip bg-color">几何节点</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;padding: 10px">
+            <img src="/medias/images/qq_group.jpg" style="width: 100%;" />
+
+            <a class="maxbutton-download-master" target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" style="width: 100%;margin-right: 20px;margin-bottom: 10px;">
+                <span class="mb-text"><i class="fa fa-download" style="margin-right: 10px">
+                    </i>下载插件管理大师</span></a>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2024</span>
+            
+            <a href="/about" target="_blank">Blenderit</a>
+            |&nbsp;Powered by&nbsp;<a href="https://space.bilibili.com/1997403556" target="_blank">Blenderit</a>
+<!--            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>-->
+            
+                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
+            
+            <br>
+            
+            
+            
+            
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+    <a href="https://space.bilibili.com/1997403556" class="tooltipped" target="_blank" data-tooltip="访问我的B站" data-position="top" data-delay="50">
+        <i class="fab fa-bilibili"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3697688140" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3697688140" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+        <script type="text/javascript" src="/js/tw_cn.js"></script>
+        <script type="text/javascript">
+          var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+          var cookieDomain = "https://blenderit.cn"; //Cookie地址, 一定要设定, 通常为你的网址
+          var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+          var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+          var translateButtonId = "translateLink"; //默认互换id
+          translateInitilization();
+        </script>
+    
+    
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?50b63550e8e1747e445278d83e5dea15";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

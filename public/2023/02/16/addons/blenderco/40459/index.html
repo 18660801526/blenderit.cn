@@ -1,0 +1,1077 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Blender布的 场景多对象相机可见剔除管理动画性能渲染Nview Addon v2.19 更新nView Addon v3.4.7, Blender插件管理,Blender插件,Blender插件怎么用,Blender插件去哪里下载,Blender插件教程,Blender免费插件,Blender插件资源,Blender插件网,Blender插件网站,Blender插件下载">
+    <meta name="description" content="Blender布的 场景多对象相机可见剔除管理动画性能渲染Nview Addon v2.19 更新nView Addon v3.4.7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Blender布的 场景多对象相机可见剔除管理动画性能渲染Nview Addon v2.19 更新nView Addon v3.4.7 | Blender插件管理大师</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+
+<meta name="generator" content="Hexo 7.2.0"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Blender插件管理大师</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签云</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>所有分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light">
+      
+      <i class="fa fa-download" style="zoom: 0.6;"></i>
+      
+      <span>下载安装</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"> 找插件</i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Blender插件管理大师</div>
+        <div class="logo-desc">
+            
+            Blender插件管理;BLender找插件、用插件的终极解决方案;找插件、用插件，安装这一个就够了;提供Blender找插件和用插件的一条龙服务
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签云
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			所有分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fa fa-download"></i>
+			
+			下载安装
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://img.alicdn.com/imgextra/i1/1856665554/O1CN01lcIebb1qtmWnfzG63_!!1856665554.png');background-repeat: no-repeat;background-size: cover;background-position: center center;">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Blender布的 场景多对象相机可见剔除管理动画性能渲染Nview Addon v2.19 更新nView Addon v3.4.7</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+<!--        原版为post-detail-toc.ejs-->
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%9B%B8%E6%9C%BA%E6%8F%92%E4%BB%B6/">
+                                <span class="chip bg-color">相机插件</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/blenderco/" class="post-category">
+                                blenderco
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-02-16
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-02-16
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    1.5k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    5 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                
+                
+<div class="article-tips"><div><i class="icon icon-smile"></i> V3.4.7</div></div><p><img class="aligncenter" src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01lcIebb1qtmWnfzG63_!!1856665554.png" alt="Snipaste_2022-09-12_23-32-18.png"></p><h1>nView 插件有什么作用？</h1><p>确定物体在任何摄像机中的可见性，或在另一个物体的“反射”中可见。了解这一点后，您可以：</p><ul>
+<li>仅选择可见对象！</li>
+<li>一次设置对象或集合的多个可见性属性，包括视口、渲染和视图图层！<img src="https://markets-rails.s3.amazonaws.com/cache/4386db270b5574688366429b3000877f.png"></li>
+<li>隐藏影响性能的高要求集合或对象，而不会影响摄像机所看到的内容！</li>
+<li>在动画中动态隐藏对象，以加快播放和渲染长动画的速度！</li>
+</ul><p>选择设置后，您可以使用不同的运算符将剔除应用为按钮：</p><ul>
+<li><b>选择对象 nView</b> – 选择所有可见对象</li>
+<li><b>设置对象 nView</b> – 设置每个对象的可见性属性（可选、在视口或渲染中可见）</li>
+<li><b>设置集合 nView</b> – 设置具有可见对象（视图图层、视口或渲染可见性）的每个集合的可见性属性</li>
+<li><b>设置蒙版 nView</b> – 为每个可行对象设置加权到一组可行面的顶点的蒙版修改器。</li>
+<li><b>选择网格 nView </b>– 选择视图中的顶点、边或面（网格编辑模式）</li>
+<li>隐藏网格 nView – 显示/隐藏视图中的顶点、边缘或面（网格编辑模式）</li>
+</ul><h1>显著特点</h1><ul>
+<li>查看视锥体和遮挡剔除选项</li>
+<li>在场景级别工作，这意味着它支持<i>任何</i>渲染引擎</li>
+<li>支持的动画</li>
+<li>可以排除由集合实例化的对象</li>
+<li>支持所有对象类型（不仅仅是网格）以及对象中的集合实例</li>
+<li>包括其他物体反射中可见<i>的物体！</i></li>
+</ul><h1>剔除方法</h1><p>nView 提供两种算法来确定摄像机中对象的可见性：</p><ul>
+<li><b>遮挡剔除</b> – 将光线投射到场景中，以确定摄像机中物体的可见性。可以自定义光线的数量以及是否包括反射中可见的对象。</li>
+<li><b>视图视锥剔除</b> – 检查对象的边界框是否在摄像机的视锥内（不包括近修剪平面和远修剪平面外的对象）。</li>
+<li><b>背面剔除</b>（仅限网格） – 检查网格的法线并剔除面向远离摄像机的面或顶点。</li>
+</ul><h1>这是为谁准备的？</h1><p>所有搅拌机都可以从此插件中受益，特别是那些：</p><ul>
+<li>跨大型场景（建筑可视化、工业设计、环境、视觉效果）处理许多对象和集合</li>
+<li>渲染可以隐藏对象的长动画以节省时间</li>
+<li>计算机运行缓慢，需要定期隐藏和显示对象或集合以提高性能</li>
+</ul><h1>释放</h1><ul>
+<li>2021 年 1 月 （2.1.&lt;&gt;） – 首次发布到搅拌机市场！</li>
+<li>2021 年 2 月 1 日 （3.1.&lt;&gt;） – <b>n 反弹</b>和错误修复（在某些情况下忽略所选对象过滤器）</li>
+<li>2021 年 3 月 1 日 （3.4.&lt;&gt;） – <b>反转选择</b>、错误修复、次要性能改进</li>
+<li>2021 年 1 月 （5.0.&lt;&gt;） – 改进了视锥体算法，添加了<b>弹跳距离</b>输入，删除了使用场景分辨率进行遮挡的输入</li>
+<li>2021 年感恩节 （2.0.0） – <b>动画支持</b>：选择或隐藏给定帧范围内的对象，以及为帧对象可见性设置关键的选项。另外，稍微清理了一个UI</li>
+<li>2021 年 2 月 （1.1.&lt;&gt;） – 视锥体算法的<b>边距设置</b>，以及使用遮挡算法修复的非网格对象的漏洞</li>
+<li>2022 年 2 月 （1.6.&lt;&gt;） – 网格 <b>nView（网格</b>编辑模式下的类似功能）具有<b>背面算法</b>、显著优化的自动关键帧、清除对象可见性关键帧的操作员（如果需要，可以方便地恢复自动关键帧）、相机位置的错误修复</li>
+<li>2022 年 2 月 （1.7.&lt;&gt;） – 修复了与集合实例化相关的错误，以及用于从计算中<b>排除实例化对象的新选项</b></li>
+<li>2022 年 2 月 （1.9.3） – 修复了 2.3 中面板和已弃用的头发对象的错误，测试已针对 Blender 2.&lt;&gt; 进行了验证！</li>
+<li>2022 年 2 月 （1.10.&lt;&gt;） – 修复了对象的实例化集合属性为空时的 bug</li>
+<li>2022 年 2 月 （2.0.&lt;&gt;） – 行为更改，符合用户期望：对于动画，不是仅使用帧范围第一帧中的活动相机，而是按帧检索<b>活动相机</b>。允许在动画中更改摄像机。</li>
+<li>2022 年寒假 （2.3.2） – 操作员<b>重做面板</b>现在包含几乎所有的 nView 设置，允许您在事后快速调整（唯一的例外是对象类型和相机 – 由于 API 限制，必须在运行操作员之前设置它们）。较低的默认动画帧步长（10 到 5），以及使用“选择网格 nView”运算符消除<b>的两个错误</b>：仅选定对象和扩展选择参数现在按预期工作。</li>
+<li>2023 年 2 月 （3.5.&lt;&gt;） – 添加了<b>运算符以重置</b>对象和集合的可见性 – 撤消确实适用于 nView，但在极少数情况下，您走得太远了，这些是可用的。扩展和反相选择属性现在显示在面板上，以便在运行前进行调整。对于自动动画关键帧选项，<b>始终考虑</b>活动相机更改的帧，即使帧步长跳过了它。这样，您就可以保持高帧步长，而不必担心错过那些活动的相机更改。</li>
+<li>2023 年 2 月 （3.7.&lt;&gt;） – 代码重构，改进导入用法以加快附加组件注册。</li>
+</ul><h1>储备：</h1><ul>
+<li><span style="text-decoration: line-through;">在指定范围的帧内进行分析</span></li>
+<li><span style="text-decoration: line-through;">自动关键帧（仅限对象可见性 – Blender 当前不支持对集合可见性进行动画处理）</span></li>
+<li><span style="text-decoration: line-through;">查看视锥体边缘</span></li>
+<li><span style="text-decoration: line-through;">网格优化</span></li>
+<li><span style="text-decoration: line-through;">实时剔除</span>我将此功能转移到一个新的免费附加组件nView直播！在此处查找文档并链接到存储库：semagnum.github.io/nview-live/</li>
+<li>（研究）处理遮挡剔除的透明度</li>
+<li>顶点和面实例化支持</li>
+</ul>
+<div style="display: none">blenderco</div>
+
+
+                    
+                        <hr/>
+                        <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://blenderco.cn/40459.html" style="width: 100%"><span class="mb-text"><i class="fa fa-download" style="margin-right: 10px"></i>去原文查看并下载插件</span></a></p>
+
+                    
+                
+            </div>
+
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">blenderit</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://blenderit.cn/2023/02/16/addons/blenderco/40459/">https://blenderit.cn/2023/02/16/addons/blenderco/40459/</a>
+                </span>
+            </div>
+            
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        原文链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a target="_blank" rel="noopener" href="https://blenderco.cn/40459.html">https://blenderco.cn/40459.html</a>
+                </span>
+            </div>
+            
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">blenderit</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E7%9B%B8%E6%9C%BA%E6%8F%92%E4%BB%B6/">
+                                    <span class="chip bg-color">相机插件</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+    
+
+    
+        <div class="card">
+            <div class="card-content article-card-content" style="padding-top: 5px">
+                <h1>版权声明</h1>
+                <hr class="clearfix">
+                <div id="articleContent">
+                    <p style="color: red">本插件资源来自网络，版权归原作者所有，仅供交流学习使用！</p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2023/02/17/addons/gfxcamp/powerprops-for-blender/">
+                    <div class="card-image">
+                        
+                        <img src="https://www.gfxcamp.com/wp-content/uploads/2023/02/PowerProps.jpg" class="responsive-img" alt="Blender模型动画控制属性复制插件 PowerProps v0.2.9">
+                        
+
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <span class="card-title">Blender模型动画控制属性复制插件 PowerProps v0.2.9</span>
+                </div>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Blender模型动画控制属性复制插件 PowerProps v0.2.9 可以在Blender中更加智能的操作模型动画，比如对多个部分同时修改颜色或者做动画，批量复制、粘贴多个模型的基础属性等 Po...
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-02-17
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/gfxcamp/" class="post-category">
+                                    gfxcamp
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%8A%A8%E7%94%BB%E6%8F%92%E4%BB%B6/">
+                        <span class="chip bg-color">动画插件</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/02/16/addons/gfxcamp/follow-path/">
+                    <div class="card-image">
+                        
+                        <img src="https://www.gfxcamp.com/wp-content/uploads/2023/02/Follow-Path.jpg" class="responsive-img" alt="Blender路径跟随运动插件 Follow Path v1.0.6">
+                        
+
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <span class="card-title">Blender路径跟随运动插件 Follow Path v1.0.6</span>
+                </div>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Blender路径跟随运动插件 Follow Path v1.0.6 可以让模型沿着自定义路径做运动动画，控制运动速度，角度，旋转等多种参数 This add-on simplifies the pr...
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-02-16
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/gfxcamp/" class="post-category">
+                                    gfxcamp
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%B7%AF%E5%BE%84%E5%8A%A8%E7%94%BB/">
+                        <span class="chip bg-color">路径动画</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;padding: 10px">
+            <img src="/medias/images/qq_group.jpg" style="width: 100%;" />
+
+            <a class="maxbutton-download-master" target="_blank" rel="noopener" href="https://gf.bilibili.com/item/detail/1105530057" style="width: 100%;margin-right: 20px;margin-bottom: 10px;">
+                <span class="mb-text"><i class="fa fa-download" style="margin-right: 10px">
+                    </i>下载插件管理大师</span></a>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2024</span>
+            
+            <a href="/about" target="_blank">Blenderit</a>
+            |&nbsp;Powered by&nbsp;<a href="https://space.bilibili.com/1997403556" target="_blank">Blenderit</a>
+<!--            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>-->
+            
+                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
+            
+            <br>
+            
+            
+            
+            
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+    <a href="https://space.bilibili.com/1997403556" class="tooltipped" target="_blank" data-tooltip="访问我的B站" data-position="top" data-delay="50">
+        <i class="fab fa-bilibili"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=3697688140" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 3697688140" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+        <script type="text/javascript" src="/js/tw_cn.js"></script>
+        <script type="text/javascript">
+          var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+          var cookieDomain = "https://blenderit.cn"; //Cookie地址, 一定要设定, 通常为你的网址
+          var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+          var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+          var translateButtonId = "translateLink"; //默认互换id
+          translateInitilization();
+        </script>
+    
+    
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?50b63550e8e1747e445278d83e5dea15";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
