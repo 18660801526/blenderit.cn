@@ -32,6 +32,33 @@
                 <% } %>
             </div>
         </div>
+        <div class="cover-btns">
+            <% if (is_home() && page.current === 1) { %>
+                <a href="<%=
+                    [theme.dream, theme.music, theme.video, theme.recommend]
+                            .some(i=>i.enable)? "#indexCard": "#articles"
+                %>" class="waves-effect waves-light btn">
+                    <i class="fa fa-angle-double-down"></i><%- __('startRead') %>
+                </a>
+            <% } %>
+
+
+            <a href="#searchModal" class="modal-trigger waves-effect waves-light btn">
+                <i id="searchIcon" class="fas fa-search" title="<%= __('search') %>" style="zoom: 0.85;"> 找插件</i>
+            </a>
+            <a href="https://gf.bilibili.com/item/detail/1105530057" class="waves-effect waves-light btn" target="_blank">
+                <i class="fa fa-download"></i>用插件
+            </a>
+            <% if (theme.indexbtn && theme.indexbtn.enable) { %>
+                <a href="<%- url_for(theme.indexbtn.url) %>" class="waves-effect waves-light btn" target="_blank">
+                    <i class="<%- theme.indexbtn.icon %>"></i><%= theme.indexbtn.name %>
+                </a>
+            <% } else if (theme.githubLink.enable) { %>
+                <a href="<%- theme.githubLink.url %>" class="waves-effect waves-light btn" target="_blank">
+                    <i class="fab fa-github %>"></i><%= theme.githubLink.title %>
+                </a>
+            <% } %>
+        </div>
     </div>
 </div>
 
