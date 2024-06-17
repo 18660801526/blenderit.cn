@@ -16,6 +16,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/cyberpunk-emissive-inserts/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-108017" src="https://www.gfxcamp.com/wp-content/uploads/2022/11/Cyberpunk-Emissive-Inserts.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2022/11/Cyberpunk-Emissive-Inserts.jpg" alt="" width="590" height="295" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2022/11/Cyberpunk-Emissive-Inserts.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2022/11/Cyberpunk-Emissive-Inserts-150x75.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><strong>Blender科幻灯光模型预设插件 Cyberpunk Emissive Inserts – Kpack – Sci Fi Lights</strong></p><p>包含30组赛博朋克科幻风格灯光模型预设，支持KIT OPS插件</p><ul>
 <li>KPACK works with Kit ops. KIT OPS is the premiere kitbashing asset management tool for Blender with over 50,000 downloads. It works in both – FREE and PRO versions.</li>
 <li>Real geometry</li>
@@ -28,3 +30,5 @@ source_link: https://www.gfxcamp.com/cyberpunk-emissive-inserts/
 </ul><p style="text-align: left;"><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-首选项(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/18A8Ijkv6HlGnkht7R6NuuA?pwd=pjai"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：pjai</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

@@ -13,6 +13,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/render-time-estimation/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-106038" src="https://www.gfxcamp.com/wp-content/uploads/2022/08/Render-Time-Estimation.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2022/08/Render-Time-Estimation.jpg" alt="" width="590" height="295" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2022/08/Render-Time-Estimation.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2022/08/Render-Time-Estimation-150x75.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><strong>Blender渲染时间计算插件 Render Time Estimation V3.2</strong></p><p>可以计算Blender的渲染时间，包括最快、最慢和平均渲染时间等</p><p>Our long-desired, missing add-on shows you the estimated remaining time for your renders or video sequences. Installed in the N-panel with its simple, clean design it perfectly fits in the Blender GUI.</p><ul>
 <li>simple statistics (shortest, longest, average frame render time)</li>
 <li>useful and useless tips (tips for Blender usage, how to manage your free time)</li>
@@ -24,3 +26,5 @@ source_link: https://www.gfxcamp.com/render-time-estimation/
 </ul><p style="text-align: left;"><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-首选项(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1zmn0JoAxXwKgSgtZARpdpA?pwd=ry4i"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：ry4i</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

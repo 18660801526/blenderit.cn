@@ -16,6 +16,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/blendermarket-scatter/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-112351" src="https://www.gfxcamp.com/wp-content/uploads/2023/04/Geo-Scatter-5.3.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2023/04/Geo-Scatter-5.3.jpg" alt="" width="590" height="295" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2023/04/Geo-Scatter-5.3.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2023/04/Geo-Scatter-5.3-150x75.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNDk4NzE2Njk4MA==" width="590" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p><p style="text-align: center;"><strong>Blender花草树木模型随机分布散步生成插件 Geo-Scatter 5.4.2</strong></p><div>
 <p>Scatter可以将选择的模型物体在指定的表面快速随机分布生成，也可以根据自己绘制的路径生成等，十分适合花草树木等模型的大量制作</p>
 <p>The professional scattering tool we all want in Blender, including the right features that turn the creative process into prowess. In order to streamline your workflow, we created the Presets ; you can count on them to achieve more in one click, then easily adjust the result inside our efficient tweaking area.</p>
@@ -36,3 +38,5 @@ source_link: https://www.gfxcamp.com/blendermarket-scatter/
 <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1dJNSbMkGLqLkxPygKiDn1A"><span class="mb-text">V4.0版本点击下载</span></a></p>
 <p style="text-align: center;"><strong>提取密码：43xt</strong></p>
 </div></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

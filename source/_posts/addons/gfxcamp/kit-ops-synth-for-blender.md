@@ -14,9 +14,13 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/kit-ops-synth-for-blender/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-94702" src="https://www.gfxcamp.com/wp-content/uploads/2021/04/Kit-Ops-Synth-for-Blender.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2021/04/Kit-Ops-Synth-for-Blender.jpg" alt="" width="590" height="295" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2021/04/Kit-Ops-Synth-for-Blender.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2021/04/Kit-Ops-Synth-for-Blender-150x75.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTEzODEzMTM2MA==" width="590" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p><p style="text-align: center;"><strong>Blender模型迭代重复生成插件 Kit Ops Synth for Blender 2.91+使用教程</strong></p><p>Synth可以根据已有模型自动生成重复迭代的效果，类似于批量复制，每个模型也可以有差异</p><p>SYNTH auto-generates 3D designed objects using existing or your own recipe based instructions. It uses an iterative mode to quickly generate a multitude of different designs.SYNTH is a Blender addon and is part of the KIT OPS ecosystem. It works in conjunction with either KIT OPS FREE or PRO and uses recipes and algorithms to smartly place KIT OPS INSERTS on target face selections.</p><p style="text-align: left;"><span style="color: #ff0000;">支持的Blender版本：</span></p><ul>
 <li style="text-align: left;">2.91或者更高版本</li>
 </ul><p style="text-align: left;"><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-首选项(Preference)-插件(AAdd-ons)-安装(Install),弹窗里选择对应的版本zip安装</li>
 <li>打开Blender，在文件-用户设置-插件，即可看到安装的插件了</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1JgLH5qtWkgTU63haAUDcnQ"><span class="mb-text">插件点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：r79n</strong></p><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/12S7JNzJtT_ESQjy2xpMf-g"><span class="mb-text">使用教程点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：dbz3</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

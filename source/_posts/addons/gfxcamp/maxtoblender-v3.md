@@ -15,6 +15,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/maxtoblender-v3/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-95536" src="https://www.gfxcamp.com/wp-content/uploads/2021/05/MaxToBlender-v3.2.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2021/05/MaxToBlender-v3.2.jpg" alt="" width="590" height="331" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2021/05/MaxToBlender-v3.2.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2021/05/MaxToBlender-v3.2-150x84.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTE1ODQzMTQyMA==" width="590" height="400" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p><p style="text-align: center;"><strong>3DS MAX模型场景导入Blender插件 3DtoAll MaxToBlender 2024 For 3DS MAX 2015-2024 破解版</strong></p><p>MaxToBlender可以将3DS MAX的场景工程转换导入到Blender中，同时保持场景的贴图材质、灯光摄像机等设置不变</p><p>MaxToBlender is a plugin to transfer 3DsMax current scene to Blender with 2 clicks, solving common problems between import/export problems automatically, to get the best results in the fastest way and with the less effort possible.</p><p style="text-align: left;"><span style="color: #ff0000;">安装步骤：</span></p><p>V2024版本安装步骤：</p><ul>
 <li>安装IKMAX_2024_3dsMax_Installer.msi，安装时选择你的MAX安装根目录</li>
 <li>在视窗里按快捷键X，输入IKMAX，找到插件之后运行，运行后会有一个请求码，拷贝一下</li>
@@ -29,3 +31,5 @@ source_link: https://www.gfxcamp.com/maxtoblender-v3/
 <li>V2024版本支持 3DS MAX 2015/2016/2017/2018/2019/2020/2021/2022/2023/2024</li>
 <li>V3.3版本支持 3DS MAX 2015/2016/2017/2018/2019/2020/2021/2022/2023</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1B9KS6RjGgAYR8rb1FK0pzg?pwd=he9g"><span class="mb-text">V2024版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：he9g</strong></p><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1KxEabAggoBhJH-UZMJ1C5A?pwd=ck7v"><span class="mb-text">V3.3版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：ck7v</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

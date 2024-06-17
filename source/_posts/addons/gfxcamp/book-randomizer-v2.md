@@ -14,6 +14,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/book-randomizer-v2/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-118427" src="https://www.gfxcamp.com/wp-content/uploads/2024/02/Book-Randomizer-V2.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2024/02/Book-Randomizer-V2.jpg" alt="" width="640" height="360" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2024/02/Book-Randomizer-V2.jpg 640w, https://www.gfxcamp.com/wp-content/uploads/2024/02/Book-Randomizer-V2-150x84.jpg 150w" data-sizes="(max-width: 640px) 100vw, 640px"><br>
 </p><center><div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 <video class="wp-video-shortcode" id="video-118426-1" width="640" height="360" preload="true" controls="controls"><source type="video/mp4" src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/448837368408.mp4?_=1"></source><a href="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/448837368408.mp4">http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/448837368408.mp4</a></video></div><center><br>
@@ -68,3 +70,5 @@ source_link: https://www.gfxcamp.com/book-randomizer-v2/
           <nav class="pagination group">
                       </nav><!--/.pagination-->
         </center></center></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

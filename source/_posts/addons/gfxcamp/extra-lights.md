@@ -14,6 +14,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/extra-lights/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-104893" src="https://www.gfxcamp.com/wp-content/uploads/2022/07/Extra-Lights-V1.1-Photometric-Lighting-For-Blender.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2022/07/Extra-Lights-V1.1-Photometric-Lighting-For-Blender.jpg" alt="" width="590" height="295" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2022/07/Extra-Lights-V1.1-Photometric-Lighting-For-Blender.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2022/07/Extra-Lights-V1.1-Photometric-Lighting-For-Blender-150x75.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTg4NDE0ODY0NA==" width="590" height="400" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>Blender真实环境自然光效插件 Extra Lights V1.2 – Photometric Lighting For Blender</strong></p><div>
 <p>包含60种真实灯光效果，包括聚光灯、点光源、区域灯、日光等，自己也可以随意控制调节</p>
 <p>This plugin for Blender adds over 60 photometric light presets to your Add menu. Here’s what you can expect:</p>
@@ -38,3 +40,5 @@ source_link: https://www.gfxcamp.com/extra-lights/
 <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1g5GPFGDQjMRvfrhVUDh1Og?pwd=hf0g"><span class="mb-text">V1.1版本点击下载</span></a></p>
 <p style="text-align: center;"><strong>提取密码：hf0g</strong></p>
 </div></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

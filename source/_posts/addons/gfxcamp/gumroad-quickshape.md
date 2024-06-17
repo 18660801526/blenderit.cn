@@ -16,6 +16,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/gumroad-quickshape/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-92059" src="https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender.jpg" alt="QuickShape for Blender" width="590" height="251" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender-150x64.jpg 150w, https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender-160x68.jpg 160w, https://www.gfxcamp.com/wp-content/uploads/2021/01/QuickShape-for-Blender-520x221.jpg 520w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><strong>Blender三维模型绘制插件 Quick Shape 2023 For Blender 2.83+</strong></p><p class="">Quick Shape可以直接在Blender视窗中绘制三维模型，绘制的时候可以开启吸附效果、自由度十分高</p><p class="">With QuickShape you will be able to draw shapes instantly in 3D</p><div class="medium-insert-images contains-image--1392096943">
 <ul>
 <li>Draw with Box, Circle, Lasso, NGON or Metaballs</li>
@@ -38,3 +40,5 @@ source_link: https://www.gfxcamp.com/gumroad-quickshape/
 <p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1JbgTwsnPua230SUhb9HGnA?pwd=lw15"><span class="mb-text">V2022版本点击下载</span></a></p>
 <p style="text-align: center;"><strong>提取密码：lw15</strong></p>
 </div></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

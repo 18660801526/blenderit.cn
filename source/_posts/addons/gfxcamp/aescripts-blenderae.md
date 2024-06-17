@@ -16,6 +16,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/aescripts-blenderae/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-97843" src="https://www.gfxcamp.com/wp-content/uploads/2021/09/Aescripts-BlenderAE.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2021/09/Aescripts-BlenderAE.jpg" alt="" width="590" height="331" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2021/09/Aescripts-BlenderAE.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2021/09/Aescripts-BlenderAE-150x84.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTgwNDA1MDM5Ng==" width="590" height="400" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>Blender+Ae导入桥接插件 Aescripts BlenderAE v1.4.5 + 使用教程</strong></p><p> </p><p>BlenderAE可以将Blender的模型物体等场景桥接导入到AE中，使用很简单</p><p>Connect, select and export 3D object and scene data from Blender to After Effects!</p><ol>
 <li>Install BlenderAe as an addon in Blender (no other scripts to install!).</li>
 <li>Click ‘Connect’ to After Effects.</li>
@@ -31,3 +33,5 @@ source_link: https://www.gfxcamp.com/aescripts-blenderae/
 <li>偏好设置,Edit—Preferences—General面板下,勾选上Allow Scripts to Write Files and Access Network</li>
 <li>脚本不支持你的AE版本(可能性较小)</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1aRLU20qWNwUhTBcw-8VZjg?pwd=j0xu"><span class="mb-text">V1.4.5版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：j0xu</strong></p><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1Gv3Vu9-UoZ-QanlPDv9PSA?pwd=d7l9"><span class="mb-text">V1.2.2版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：d7l9</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

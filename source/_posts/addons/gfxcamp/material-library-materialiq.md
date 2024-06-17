@@ -15,6 +15,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/material-library-materialiq/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-121709" src="https://www.gfxcamp.com/wp-content/uploads/2023/05/Material-Library-Materialiq-Cycles-Eevee-Materials.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2023/05/Material-Library-Materialiq-Cycles-Eevee-Materials.jpg" alt="" width="640" height="320" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2023/05/Material-Library-Materialiq-Cycles-Eevee-Materials.jpg 640w, https://www.gfxcamp.com/wp-content/uploads/2023/05/Material-Library-Materialiq-Cycles-Eevee-Materials-150x75.jpg 150w" data-sizes="(max-width: 640px) 100vw, 640px"><br>
 </p><center><div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 <video class="wp-video-shortcode" id="video-106371-1" width="640" height="360" preload="true" controls="controls"><source type="video/mp4" src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/464688122865.mp4?_=1"></source><a href="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/464688122865.mp4">http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/464688122865.mp4</a></video></div></center><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTg5NjMzMzMwNA==" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>370组Blender常用材质资产预设库插件 Material Library Materialiq V5.1.0 – Cycles &amp; Eevee Materials Material</strong></p><p>Materialiq包含超过370组材质预设，支持Cycles, Eevee渲染器，每个材质也都是可以自定义调节的，4K分辨率</p><p>Materialiq is a collection of Materials for Blender 2.8+ that are designed from the ground up to take care of the time-consuming tasks usually involved with creating and changing materials, allowing you to focus on other important aspects in your scene other than materials.</p><p style="text-align: left;"><span style="color: #ff0000;">支持的Blender版本：</span></p><ul>
@@ -23,3 +25,5 @@ source_link: https://www.gfxcamp.com/material-library-materialiq/
 <li>在顶部菜单编辑(Edit)-偏好设置(Preference)-插件(Add-ons)-安装(Install),弹窗里选择engon-1.1.0.zip安装</li>
 <li>在engon插件的参数栏，点击Install Asset Pack，拾取materialiq_full-5.1.0.paq安装预设即可</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1tq7fnSBiqMfh3YCCSbOcfA?pwd=94tf"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：94tf</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

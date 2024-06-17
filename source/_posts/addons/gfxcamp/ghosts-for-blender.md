@@ -15,6 +15,8 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/ghosts-for-blender/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-113459" src="https://www.gfxcamp.com/wp-content/uploads/2023/07/Ghosts.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2023/07/Ghosts.jpg" alt="" width="640" height="360" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2023/07/Ghosts.jpg 640w, https://www.gfxcamp.com/wp-content/uploads/2023/07/Ghosts-150x84.jpg 150w" data-sizes="(max-width: 640px) 100vw, 640px"><br>
 </p><center><div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
 <video class="wp-video-shortcode" id="video-113458-1" width="640" height="360" preload="true" controls="controls"><source type="video/mp4" src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/418770057872.mp4?_=1"></source><a href="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/418770057872.mp4">http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/418770057872.mp4</a></video></div></center><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNTk4MTk2Mjk0MA==" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>Blender洋葱皮路径残影可视化插件 Ghosts V1.0.1</strong></p><p>可以将模型即将经过路径的残影可视化显示出来，模型根据路径进行运动</p><p>Ghosts will help you to ensure Consistency and Continuity in your Animation by compiling all the most Onionskin relevant features while keeping it extremely simple.</p><p style="text-align: left;"><span style="color: #ff0000;">支持的Blender版本：</span></p><ul>
@@ -23,3 +25,5 @@ source_link: https://www.gfxcamp.com/ghosts-for-blender/
 </ul><p style="text-align: left;"><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-偏好设置(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/13qd5mpSPlozMiAV4eAszYQ?pwd=1b3o"><span class="mb-text">V1.0.1版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：1b3o</strong></p><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1j50HWJU7jvo0UdVUJKewCA?pwd=dswv"><span class="mb-text">V1.0版本点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：dswv</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

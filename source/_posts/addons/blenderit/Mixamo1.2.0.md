@@ -6,9 +6,7 @@ tags:
   - 工具
   - 教程
 categories:
-  - 插件
-  - 工具
-  - 教程
+  - blenderit
 iframeUrl: //player.bilibili.com/player.html?isOutside=true&aid=1754570442&bvid=BV1Mt421M7qf&cid=1547389645&p=1
 img: /images/addons/Mixamo1.2.0.png
 showGetMethod: true
@@ -35,3 +33,5 @@ Blender 3.1+
 **方式二：**
 
 在顶部菜单编辑(Edit)-首选项(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装
+
+<div style="display: none">blenderit</div>

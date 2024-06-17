@@ -2,7 +2,7 @@
 title: 免责声明
 date: 2024-05-10 09:21:47
 tags: 关于
-categories: 关于
+categories: blenderit
 # img: /images/addons/SK_Light.png
 ---
 # 免责声明：
@@ -22,3 +22,5 @@ categories: 关于
 <b>6. 免责声明的变更：</b>我们保留随时更改本免责声明的权利，恕不另行通知。
 
 用户在访问本应用和使用本应用提供的资源和内容时，默认接受本免责声明的全部内容。如果您不同意本免责声明的任何部分，请立即停止访问本应用并不再使用本应用提供的资源和内容。
+
+<div style="display: none">blenderit</div>

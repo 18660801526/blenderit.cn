@@ -15,8 +15,12 @@ showGetMethod: false
 copyright: 本插件资源来自网络，版权归原作者所有，仅供交流学习使用！
 source_link: https://www.gfxcamp.com/loop-copier/
 ---
+
+{% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-109960" src="https://www.gfxcamp.com/wp-content/uploads/2023/02/Loop-Copier.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2023/02/Loop-Copier.jpg" alt="" width="590" height="377" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2023/02/Loop-Copier.jpg 590w, https://www.gfxcamp.com/wp-content/uploads/2023/02/Loop-Copier-150x96.jpg 150w" data-sizes="(max-width: 590px) 100vw, 590px"></p><p style="text-align: center;"><strong>Blender路径复制克隆插件 Loop Copier v2.4.1</strong></p><p>Loop Copier是一个简单的Blender克隆工具插件，可以将模型按照自定义路径做复制操作</p><p>Loop Copier is a simple tool for copying mesh along the selected edges-loop. It is different from using Array Modifier + Curve Modifier in blender, which will deform the original mesh parts (curve modifier bend it).</p><p><span style="color: #ff0000;">支持的软件版本</span></p><ul>
 <li>2.83, 2.9, 2.91, 2.92, 2.93, 3.0, 3.1, 3.2, 3.3, 3.4</li>
 </ul><p><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-首选项(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应ZIP安装</li>
 </ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1UsMQlul78UoC4k84udUwIg?pwd=69y0"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：69y0</strong></p></div>
+<div style="display: none">gfxcamp</div>
+{% endraw %}

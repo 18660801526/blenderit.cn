@@ -2,7 +2,7 @@
 title: 关于插件管理大师
 date: 2024-05-10 09:21:47
 tags: 关于
-categories: 关于
+categories: blenderit
 # iframeUrl: //player.bilibili.com/player.html?aid=1704266003&bvid=BV14T421Q725&cid=1538326188&p=1
 ---
 # 关于插件管理大师：
@@ -45,3 +45,5 @@ Blender插件管理大师，是完全由blenderit自主研发的Blender插件管
 
 要解决这两大问题，需要大量的精力和时间来制作教程、软件等作品，但饭是一口一口吃的，路是一步一步走的，插件管理大师会一口一口的、一步一步的、坚定不移的来完成。插件管理大师相信【有志者，事竟成】，插件管理大师会不断完善和开发新的功能，为用户解决好<b>找插件</b>和<b>用插件</b>这两大难题！
 
+
+<div style="display: none">blenderit</div>
