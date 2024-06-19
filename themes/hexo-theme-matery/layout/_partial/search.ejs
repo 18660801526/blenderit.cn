@@ -64,7 +64,7 @@ $(function () {
                         }
                         // show search results
                         if (isMatch) {
-                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>&nbsp;&nbsp;" + data_url.substring(0, 11).substring(1,11);
                             var content = data.content.trim().replace(/<[^>]+>/g, "");
                             if (first_occur >= 0) {
                                 // cut out 100 characters
