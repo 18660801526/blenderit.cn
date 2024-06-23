@@ -11,7 +11,7 @@ tags:
     - Material
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/b2/b2cc00245fc9b6ca0924dc0063658e2cb48d86cd2ff93894ab395bf4beeeb3f6_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/io_scene_max.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/io-scene-max/

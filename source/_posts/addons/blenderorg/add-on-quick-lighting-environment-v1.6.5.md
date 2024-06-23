@@ -9,7 +9,7 @@ tags:
     - Lighting
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/80/801898c5bae03436202c30963b38cecccddd28a6535136bfa77fe1e577827858_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-quick-lighting-environment-v1.6.5.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/quick-lighting-environment/

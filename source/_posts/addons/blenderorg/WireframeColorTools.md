@@ -2,8 +2,8 @@
 title: "Wireframe Color Tools"
 description: "Change Object Colors based on different kinds of methods"
 summary: "Change Object Colors based on different kinds of methods"
-date: 2024-06-17 08:57:09
-updated: 2024-06-17 08:57:09
+date: 2024-06-23 08:52:57
+updated: 2024-06-23 08:52:57
 author: blenderit
 tags: 
     - 3D View
@@ -11,7 +11,7 @@ tags:
     - Object
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/55/55e74d3a8ba3774cf3f2cb4e9bb62259b46e25ac9bb64664c189b60e74230cd4_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/WireframeColorTools.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/wireframe-color-tools/

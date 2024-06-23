@@ -11,7 +11,7 @@ tags:
     - Mesh
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/93/93f38d547bbeac84698a3b21a0dcf76b2b046476c652ed8d4937a1c5ad38f940_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/keymesh.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/keymesh/

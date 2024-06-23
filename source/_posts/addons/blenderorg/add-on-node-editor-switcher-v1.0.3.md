@@ -11,7 +11,7 @@ tags:
     - User Interface
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/47/47416f543034c4a72e68c72178a464345c2e9332023b579de42d9ccb8bffb2c1_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-node-editor-switcher-v1.0.3.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/node-editor-switcher/

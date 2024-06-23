@@ -13,7 +13,7 @@ tags:
     - Physics
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/5c/5c07beabcd725f45206a380bb1e431b6f583d2fa8fcb8e4ed7965ba1d56d9c95_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-vrm-extension-v2.20.42.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/vrm-extension/

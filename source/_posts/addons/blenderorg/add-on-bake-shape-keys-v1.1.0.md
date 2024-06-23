@@ -2,15 +2,15 @@
 title: "Bake Shape Keys"
 description: "Feature-set for shape keys and shape key animations"
 summary: "Feature-set for shape keys and shape key animations"
-date: 2024-06-17 09:03:07
-updated: 2024-06-17 09:03:07
+date: 2024-06-23 08:54:21
+updated: 2024-06-23 08:54:21
 author: blenderit
 tags: 
     - Animation
     - Mesh
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/24/2412c8befafd6ee2954b7eaddb32d9dc53cb98ad7b2f9f92025367726a7b490e_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-bake-shape-keys-v1.1.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/bake-shape-keys/

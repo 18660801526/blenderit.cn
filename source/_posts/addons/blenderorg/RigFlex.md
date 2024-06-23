@@ -11,7 +11,7 @@ tags:
     - Rigging
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/00/002269bdcd3524b0f1b3ce296c78294a79f9b1003cff05b216605c8976f5c0eb_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/RigFlex.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/rigflex/

@@ -10,7 +10,7 @@ tags:
     - 3D View
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/70/704c52e3b86c7626aae319a0580e98ff7958e293c5d898b71d575dfc58423409_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/keyframe_visibility.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/keyframe-visibility/

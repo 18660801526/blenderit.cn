@@ -9,7 +9,7 @@ tags:
     - Geometry Nodes
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/09/091e1f5ad3264a70be771adc9c10cb1af1de197ab644f4677d311a6996ed87d5_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-t3d-gn-presets-v1.5.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/t3d-gn-presets/

@@ -9,7 +9,7 @@ tags:
     - Object
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/2e/2e917ea001204abf8c36a8dad2c573b107c2e8d3ab709c4f403ec6c5bdebb6ae_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-real-snow-v1.3.2.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/real-snow/

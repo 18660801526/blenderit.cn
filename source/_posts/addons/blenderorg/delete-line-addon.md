@@ -10,7 +10,7 @@ tags:
     - Text Editor
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/ed/ed81a777707051eac05ac1f8ac4c40badc2d0941e6031a5eac11e7453c821dc3_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/delete-line-addon.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/delete-line-shortcut/

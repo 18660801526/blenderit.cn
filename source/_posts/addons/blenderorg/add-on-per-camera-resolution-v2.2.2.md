@@ -10,7 +10,7 @@ tags:
     - Camera
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/c2/c2c9205ead9ad8583eb75c6b8d79db81876df1f24a412ccd3868aaa087afa794_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-per-camera-resolution-v2.2.2.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/per-camera-resolution/

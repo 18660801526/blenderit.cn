@@ -2,8 +2,8 @@
 title: "Border Buddy"
 description: "Your buddy that helps to preserve borders"
 summary: "Your buddy that helps to preserve borders"
-date: 2024-06-17 08:57:09
-updated: 2024-06-17 08:57:09
+date: 2024-06-23 08:53:32
+updated: 2024-06-23 08:53:32
 author: blenderit
 tags: 
     - Render

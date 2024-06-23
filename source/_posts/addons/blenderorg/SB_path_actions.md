@@ -10,7 +10,7 @@ tags:
     - Development
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/a9/a9e937dc800b3692903bf0446cf48a4b91a340ea013591d3cc61e48e26dd8482_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/SB_path_actions.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/sb-path-actions/

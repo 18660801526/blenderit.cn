@@ -9,7 +9,7 @@ tags:
     - System
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/3a/3a8107d4ae1eb04b66cd3a1b3fa0c66e107702bbd21e88c77f9a704685adc089_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-fls-blcn-v0.0.5.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/fls-blcn/

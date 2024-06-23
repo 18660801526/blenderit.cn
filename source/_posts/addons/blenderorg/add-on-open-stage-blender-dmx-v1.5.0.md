@@ -6,11 +6,11 @@ date: 2024-06-02 00:00:00
 updated: 2024-06-02 00:00:00
 author: blenderit
 tags: 
-    - Animation
     - Lighting
+    - Animation
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/48/48ac81006cc0409d0d34211e258bfe75cf26e319ba543ae4637d5d03070106ce_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-open-stage-blender-dmx-v1.5.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/open-stage-blender-dmx/

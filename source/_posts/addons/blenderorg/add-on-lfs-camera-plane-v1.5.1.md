@@ -2,8 +2,8 @@
 title: "Camera Plane"
 description: "Import images and stick them to the camera"
 summary: "Import images and stick them to the camera"
-date: 2024-06-17 08:57:09
-updated: 2024-06-17 08:57:09
+date: 2024-06-23 08:52:57
+updated: 2024-06-23 08:52:57
 author: blenderit
 tags: 
     - 3D View
@@ -12,7 +12,7 @@ tags:
     - Camera
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/2a/2a5c3fcde21b3c26fa31e68a58c9a70746569ab88968072bc7e3752408d55215_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-lfs-camera-plane-v1.5.1.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/lfs-camera-plane/

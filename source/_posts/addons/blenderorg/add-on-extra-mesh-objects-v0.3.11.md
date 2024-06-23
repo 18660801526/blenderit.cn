@@ -19,7 +19,7 @@ source_link: https://extensions.blender.org/add-ons/extra-mesh-objects/
 <section id="about" class="mt-3">
             <div class="box style-rich-text">
               <p>This extension was part of Blender 4.1 bundled add-ons.
-It is now offered as it is, with limited supported.</p>
+It is now offered as it is, with limited support.</p>
 <ul>
 <li>Location: <em>View3D → Add → Mesh</em></li>
 <li><a rel="nofollow noopener noreferrer external" target="_blank" href="https://docs.blender.org/manual/en/4.1//addons/add_mesh/mesh_extra_objects.html">Documentation</a></li>

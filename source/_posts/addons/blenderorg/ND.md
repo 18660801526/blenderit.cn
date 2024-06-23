@@ -16,7 +16,7 @@ tags:
     - UV
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/bb/bb1981b54aa99f0b1df98cd1c6f766dfe61ecbdc70a0f5f065a70a919c09d97e_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/ND.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/nd/

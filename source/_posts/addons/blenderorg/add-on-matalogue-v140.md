@@ -2,8 +2,8 @@
 title: "Matalogue"
 description: "All your node trees in one list"
 summary: "All your node trees in one list"
-date: 2024-06-17 08:41:51
-updated: 2024-06-17 08:41:51
+date: 2024-06-23 08:53:00
+updated: 2024-06-23 08:53:00
 author: blenderit
 tags: 
     - Animation
@@ -11,7 +11,7 @@ tags:
     - Node
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/7e/7e6f1f6cb85296ed5947ed12ed108bf743caee33526bfb3ab3bb93a881644802_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-matalogue-v140.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/matalogue/

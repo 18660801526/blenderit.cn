@@ -2,15 +2,15 @@
 title: "Screencast Keys"
 description: "Display keys pressed in Blender"
 summary: "Display keys pressed in Blender"
-date: 2024-06-17 09:02:59
-updated: 2024-06-17 09:02:59
+date: 2024-06-23 08:53:31
+updated: 2024-06-23 08:53:31
 author: blenderit
 tags: 
     - System
     - User Interface
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/df/df873a136c739557e0f84711c2dafc55f5cd67840f1d446fc03ba508ed96eb1c_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/screencast_keys.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/screencast-keys/

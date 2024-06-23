@@ -11,7 +11,7 @@ tags:
     - Modeling
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/0f/0f0abcf80646c5dff095a9a6dffd30e2d268634778eb8e27ffc54086cad36ed0_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/GP to Curves v0_1_2.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/gp-to-curves/

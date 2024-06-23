@@ -9,7 +9,7 @@ tags:
     - Lighting
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/61/61457954a66dd8cb3f2a8b3075e1c4160932bcf660a4095efe0c2d4f0b1d0007_640x360_REjIk7w.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-sun-position-v4.0.2.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/sun-position/

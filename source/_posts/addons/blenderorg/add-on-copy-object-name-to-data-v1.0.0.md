@@ -10,7 +10,7 @@ tags:
     - User Interface
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/39/3925fffb10c3b82f021aef21a6325581ebee4fa83aef999911d0166f14da34e2_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-copy-object-name-to-data-v1.0.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/copy-object-name-to-data/

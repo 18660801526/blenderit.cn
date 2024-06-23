@@ -10,7 +10,7 @@ tags:
     - Development
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/ce/ce549e821ce9a5907b91a1d68163b6aa8afac9d6ea8c1974449729ee0dea59a1_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/textify.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/textify/

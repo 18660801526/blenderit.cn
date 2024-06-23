@@ -10,7 +10,7 @@ tags:
     - Grease Pencil
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/a3/a3ca9386607af227680d0f84464a4550db5d8ea09d3b55c9eb3716ccb50ab283_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/gp_tool_wheel.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/grease-pencil-tool-wheel/

@@ -10,7 +10,7 @@ tags:
     - Render
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/dd/ddfc963c2aa17a161e6b4ba5015bb9d28b75d21ccde56f5a1d078d8a18b4ecf0_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/bioxelnodes.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/bioxelnodes/

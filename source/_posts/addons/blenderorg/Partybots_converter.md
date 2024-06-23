@@ -11,7 +11,7 @@ tags:
     - Game Engine
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/19/193387a9d14729a066f2381f41a5de699d88d77443d502e82ab1ac7a77e2b6f9_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/Partybots_converter.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/partybots-converter/

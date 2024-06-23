@@ -9,7 +9,7 @@ tags:
     - UV
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/dd/dd1b106d3ca771b134979aeda70dabe13901c1809f9f505488c72cc36b21b153_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/SelectsAllIslandsUDIM.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/selectsallislandsudim/

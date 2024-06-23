@@ -10,7 +10,7 @@ tags:
     - Render
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/49/49955545e5f7c73aa19f642f3e4dfdbc06964bdbf06c8fd482372c18d3a508ec_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/K_Tools_Visibility_Check_ver_1_3.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/k-tools-visibility-check/

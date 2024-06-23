@@ -11,7 +11,7 @@ tags:
     - Object
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/63/63238446cc898410374afe55b0bfd860e86f5300bdc59f8d8cf5ed2a2e59d1c4_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/lightpainter.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/lightpainter/

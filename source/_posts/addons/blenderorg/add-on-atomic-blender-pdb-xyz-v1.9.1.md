@@ -9,7 +9,7 @@ tags:
     - Import-Export
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/76/76f53c47aab3f66a06d9f97bfb461bfc198b28fed2f48ebdf6a216638c57c6e8_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-atomic-blender-pdb-xyz-v1.9.1.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/atomic-blender-pdb-xyz/

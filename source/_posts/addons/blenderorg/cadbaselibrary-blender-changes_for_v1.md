@@ -10,7 +10,7 @@ tags:
     - User Interface
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/39/397d3ce7f0fb2c97293fd39147d3c8626b899b4bd59e8614ea9357c3975769e1_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/cadbaselibrary-blender-changes_for_v1.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/cadbase-library/

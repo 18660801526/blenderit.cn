@@ -11,7 +11,7 @@ tags:
     - Paint
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/e8/e8e96a144bd5c34165bcc45bb7fd26c3dc3b51ea0bd0b0c174b23167914823a7_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/ucupaint.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/ucupaint/

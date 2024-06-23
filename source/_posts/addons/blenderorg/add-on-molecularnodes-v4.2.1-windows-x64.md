@@ -10,7 +10,7 @@ tags:
     - Import-Export
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/6f/6fdefd50f94a60790b8f00503a41ea8bb6316a9a315bdda25e8e90ecc25fd7e9_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-molecularnodes-v4.2.1-windows-x64.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/molecularnodes/

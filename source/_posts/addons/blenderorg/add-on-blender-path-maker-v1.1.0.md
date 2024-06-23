@@ -9,7 +9,7 @@ tags:
     - Render
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/db/dbe7ced3e06d35ba03fd48c57c980e9539c8435187b37e4ad8b1864aa29064f4_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-blender-path-maker-v1.1.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/blender-path-maker/

@@ -9,7 +9,7 @@ tags:
     - Add Mesh
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/8b/8b40d71cab9eaf8101acfb9abf784f4695f9cdfe542bc118a08465a509e042d4_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/add-on-atomic-blender-cluster-v1.0.0.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/atomic-blender-cluster/

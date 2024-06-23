@@ -10,7 +10,7 @@ tags:
     - Geometry Nodes
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/b0/b05c97678755b84bf358e7532071876925c9708940ff48ba6738027efa708d31_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/node_annotator.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/node-annotator/

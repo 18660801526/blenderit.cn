@@ -10,7 +10,7 @@ tags:
     - Modeling
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/38/38f2245ad68d59a3b12c9577e982feb0e86596f27594bd59d1139158ec128746_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/Quick Groups.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/quick-groups/

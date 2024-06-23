@@ -14,7 +14,7 @@ tags:
     - Animation
 categories:
     - blenderorg
-img: https://extensions.blender.org/media/thumbnails/94/94d07d8e9888ce354696d49f1d8e139b7821046b0f4846d3b81ec3417fd99649_640x360.webp
+img: https://blenderit.cn/images/addons/blenderorg/io_scene_3ds.png
 showGetMethod: false
 copyright: 本插件资源来自官网插件库，遵循开源协议，可免费使用，版权归原作者所有！
 source_link: https://extensions.blender.org/add-ons/autodesk-3ds-format/
