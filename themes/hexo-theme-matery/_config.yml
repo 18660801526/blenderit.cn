@@ -130,7 +130,7 @@ video:
   showTitle: true
   title: 快速了解
   url: # url和iframeUrl其中一个必填
-  iframeUrl: //player.bilibili.com/player.html?isOutside=true&aid=1205577938&bvid=BV1Pf42197qc&cid=1574315817&p=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
+  iframeUrl: //player.bilibili.com/player.html?isOutside=true&aid=1855767487&bvid=BV1Ws421T7MY&cid=1600718653&p=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic:
   thumbnails:
   height: 600 # 如：400
