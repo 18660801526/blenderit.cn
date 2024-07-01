@@ -41,7 +41,7 @@ source_link: https://extensions.blender.org/add-ons/io-scene-max/
 </ul>
 </blockquote>
 <hr>
-<p>Extension to import meshes, materials and texture coordinates from Autodesk .max files.  Supported materials are Standard, Arch, V-Ray and Corona. Textures are supported, but only for Standard materials.</p>
+<p>Extension to import meshes, materials and texture coordinates from Autodesk .max files.  Supported materials are Standard, Arch, V-Ray and Corona. Supported textures for base color, roughness, specular intensity, transparency and normalmap.</p>
 
             </div>
           </section>

@@ -57,9 +57,9 @@ source_link: https://extensions.blender.org/add-ons/keymesh/
 <hr>
 <ul>
 <li><strong>And many more on the way!</strong></li>
-<li>PageUp and PageDown (with and without Ctrl) are default shortcuts for inserting new keyframes and jumping in timeline.</li>
-<li>You can customize your UI and workflow by changing preferences and even enable experimental features if you're feeling risky.</li>
 </ul>
+<p>-- PageUp and PageDown (with and without Ctrl) are default shortcuts for inserting new keyframes and jumping in timeline.
+-- You can customize your UI and workflow by changing preferences and even enable experimental features if you're feeling risky.</p>
 <hr>
 <p>This version of the add-on is being developed for a stop-motion animation studio and will receive future updates with new features and improvements. If you want to help out, suggest new features, or report bugs you can reach out at Blender Artists or Github links provided.</p>
 <p>We encourage you to share the work that you make with Keymesh with us! You can help by spreading information about the add-on. If you want to make a video tutorial using/about Keymesh you can do so without having to ask, but feel free to contact if you need any help.</p>

@@ -2,8 +2,8 @@
 title: "Screencast Keys"
 description: "Display keys pressed in Blender"
 summary: "Display keys pressed in Blender"
-date: 2024-06-23 08:53:31
-updated: 2024-06-23 08:53:31
+date: 2024-07-01 09:48:52
+updated: 2024-07-01 09:48:52
 author: blenderit
 tags: 
     - System

@@ -2,8 +2,8 @@
 title: "Orient and Origin to Selected"
 description: "Quickly manipulate the object origin"
 summary: "Quickly manipulate the object origin"
-date: 2024-06-23 08:52:59
-updated: 2024-06-23 08:52:59
+date: 2024-07-01 08:51:18
+updated: 2024-07-01 08:51:18
 author: blenderit
 tags: 
     - Mesh

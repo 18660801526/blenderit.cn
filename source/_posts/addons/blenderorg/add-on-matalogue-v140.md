@@ -2,8 +2,8 @@
 title: "Matalogue"
 description: "All your node trees in one list"
 summary: "All your node trees in one list"
-date: 2024-06-23 08:53:00
-updated: 2024-06-23 08:53:00
+date: 2024-07-01 08:51:18
+updated: 2024-07-01 08:51:18
 author: blenderit
 tags: 
     - Animation

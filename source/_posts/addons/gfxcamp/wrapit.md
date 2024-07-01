@@ -1,9 +1,9 @@
 ---
-title: "Blender塑料包装效果插件 WrapIt V1.0"
-description: "Blender塑料包装效果插件 WrapIt V1.0 WrapIt 插件可以轻松创建塑料包装效果 The WrapIt addon makes it easy to create a plastic..."
-summary: "Blender塑料包装效果插件 WrapIt V1.0 WrapIt 插件可以轻松创建塑料包装效果 The WrapIt addon makes it easy to create a plastic..."
-date: 2024-06-20 00:00:00
-updated: 2024-06-20 00:00:00
+title: "Blender塑料包装效果插件 WrapIt V1.0.2"
+description: "Blender塑料包装效果插件 WrapIt V1.0.2 WrapIt 插件可以轻松创建塑料包装效果 The WrapIt addon makes it easy to create a plast..."
+summary: "Blender塑料包装效果插件 WrapIt V1.0.2 WrapIt 插件可以轻松创建塑料包装效果 The WrapIt addon makes it easy to create a plast..."
+date: 2024-06-30 00:00:00
+updated: 2024-06-30 00:00:00
 author: blenderit
 tags: 
     - WrapIt
@@ -19,10 +19,10 @@ source_link: https://www.gfxcamp.com/wrapit/
 {% raw %}
 <div><p><img decoding="async" class="aligncenter size-full wp-image-122243" src="https://www.gfxcamp.com/wp-content/uploads/2024/06/Wrapit.jpg" data-src="https://www.gfxcamp.com/wp-content/uploads/2024/06/Wrapit.jpg" alt="" width="640" height="320" data-srcset="https://www.gfxcamp.com/wp-content/uploads/2024/06/Wrapit.jpg 640w, https://www.gfxcamp.com/wp-content/uploads/2024/06/Wrapit-150x75.jpg 150w" data-sizes="(max-width: 640px) 100vw, 640px"><br>
 </p><center><div style="width: 640px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
-<video class="wp-video-shortcode" id="video-122246-1" width="640" height="360" preload="true" controls="controls"><source type="video/mp4" src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4?_=1"></source><a href="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4">http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4</a></video></div></center><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNjM5OTY4MDczMg==" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>Blender塑料包装效果插件 WrapIt V1.0</strong></p><p>WrapIt 插件可以轻松创建塑料包装效果</p><p>The WrapIt addon makes it easy to create a plastic wrap effect</p><p style="text-align: left;"><span style="color: #ff0000;">支持的Blender版本：</span></p><ul>
+<video class="wp-video-shortcode" id="video-122246-1" width="640" height="360" preload="true" controls="controls"><source type="video/mp4" src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4?_=1"></source><a href="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4">http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/468807074939.mp4</a></video></div></center><p style="text-align: center;"><iframe loading="lazy" src="https://player.youku.com/embed/XNjM5OTY4MDczMg==" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p><p style="text-align: center;"><strong>Blender塑料包装效果插件 WrapIt V1.0.2</strong></p><p>WrapIt 插件可以轻松创建塑料包装效果</p><p>The WrapIt addon makes it easy to create a plastic wrap effect</p><p style="text-align: left;"><span style="color: #ff0000;">支持的Blender版本：</span></p><ul>
 <li style="text-align: left;">4.1</li>
 </ul><p><span style="color: #ff0000;">安装步骤：</span></p><ul>
 <li>在顶部菜单编辑(Edit)-偏好设置(Preference)-插件(Add-ons)-安装(Install),弹窗里选择对应的版本zip安装</li>
-</ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1iwIkUXKxtzsc4z0QLpk9sA?pwd=jhpp"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：jhpp</strong></p></div>
+</ul><p style="text-align: center;"><a class="maxbutton-3 maxbutton maxbutton-baidu" target="_blank" rel="noopener" href="https://pan.baidu.com/s/1TtR0l_PwZ7A35x6hnVMbZw?pwd=xe4n"><span class="mb-text">百度网盘点击下载</span></a></p><p style="text-align: center;"><strong>提取密码：xe4n</strong></p></div>
 <div style="display: none">gfxcamp</div>
 {% endraw %}

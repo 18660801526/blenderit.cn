@@ -2,8 +2,8 @@
 title: "Wireframe Color Tools"
 description: "Change Object Colors based on different kinds of methods"
 summary: "Change Object Colors based on different kinds of methods"
-date: 2024-06-23 08:52:57
-updated: 2024-06-23 08:52:57
+date: 2024-07-01 08:22:55
+updated: 2024-07-01 08:22:55
 author: blenderit
 tags: 
     - 3D View

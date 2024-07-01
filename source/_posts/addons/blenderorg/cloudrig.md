@@ -19,7 +19,7 @@ source_link: https://extensions.blender.org/add-ons/cloudrig/
 <section id="about" class="mt-3">
             <div class="box style-rich-text">
               <p>CloudRig is a rig generation add-on for Blender, developed by the Blender Studio for our Open Movies, starting with CoffeeRun in 2020.</p>
-<p>CloudRig lets you save time by creating helper bones, constraints, and drivers for you, based on some basic inputs. These inputs are provided in the form of a simple armature, called a Metarig. You can learn more about this process on the <a rel="nofollow noopener noreferrer external" target="_blank" href="https://projects.blender.org/Mets/CloudRig/wiki">wiki</a>.</p>
+<p>CloudRig lets you save time by creating helper bones, constraints, and drivers for you, based on some basic inputs. These inputs are provided in the form of a simple armature, called a Metarig. You can learn more about this process on the <a rel="nofollow noopener noreferrer external" target="_blank" href="https://studio.blender.org/pipeline/addons/cloudrig/introduction">wiki</a>.</p>
 <p>It also comes with some (optional) workflow enhancements, like various pie menus and improved operators.</p>
 
             </div>
